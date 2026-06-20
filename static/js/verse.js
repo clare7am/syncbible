@@ -30,6 +30,7 @@ container.innerHTML = data.map(v => `
                 return `<span>${w.word}</span>`;
             }).join('')}
         </div>
+        <div class="verse-cn">${v.text_cn}</div>
     </div>
 `).join('');
         })

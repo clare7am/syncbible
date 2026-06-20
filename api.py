@@ -72,7 +72,7 @@ def verses_with_words(book_id, chapter):
     # 取经文
     verses = db.execute(
         """
-        SELECT id, verse
+        SELECT id, verse, text_cn
         FROM verse
         WHERE book_id = ? AND chapter = ?
         ORDER BY verse
@@ -96,6 +96,7 @@ def verses_with_words(book_id, chapter):
 
         result.append({
             "verse": v["verse"],
+            "text_cn": v["text_cn"],
             "words": [
                 {"word": w["word"], "type": w["type"]}
                 for w in words
