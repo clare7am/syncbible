@@ -1,0 +1,12 @@
+# SQLite 数据库
+*.db
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter 检查点
+.ipynb_checkpoints/
+
+# 系统
+.DS_Store
