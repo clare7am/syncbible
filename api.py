@@ -1,3 +1,7 @@
+# 默认书卷：玛窦福音 47 章
+DEFAULT_BOOK_ID = 47
+DEFAULT_CHAPTER = 1
+
 import os
 import sqlite3
 from flask import Flask, render_template, g, jsonify
@@ -25,7 +29,12 @@ def index():
     books = db.execute(
         "SELECT id, name_cn FROM book ORDER BY order_index"
     ).fetchall()
-    return render_template("index.html", books=books)
+    return render_template(
+        "index.html",
+        books=books,
+        default_book_id=DEFAULT_BOOK_ID,
+        default_chapter=DEFAULT_CHAPTER
+    )
 
 @app.route("/chapters/<int:book_id>")
 def chapters(book_id):

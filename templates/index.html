@@ -12,12 +12,16 @@
 
     <div class="select-row">
         <!-- ✅ 书卷下拉 -->
+    <div class="select-row">
         <div class="select-group">
             <label for="book">书卷</label>
             <select id="book" onchange="onBookChange(this)">
                 <option value="">-- 请选择书卷 --</option>
                 {% for b in books %}
-                    <option value="{{ b.id }}">{{ b.name_cn }}</option>
+                    <option value="{{ b.id }}"
+                        {% if b.id == default_book_id %}selected{% endif %}>
+                        {{ b.name_cn }}
+                    </option>
                 {% endfor %}
             </select>
         </div>
@@ -25,13 +29,15 @@
         <!-- ✅ 章节下拉 -->
         <div class="select-group">
             <label for="chapter">章</label>
-            <select id="chapter" onchange="onChapterChange(this)" disabled>
-                <option value="">-- 请先选书卷 --</option>
+            <select id="chapter" onchange="onChapterChange(this)">
+                <option value="">-- 请选择章 --</option>
+                <option value="{{ default_chapter }}" selected>
+                    {{ default_chapter }}
+                </option>
             </select>
         </div>
     </div>
 
-    <div class="info" id="info">请选择书卷</div>
 </div>
 
 <script src="{{ url_for('static', filename='js/book.js') }}"></script>
