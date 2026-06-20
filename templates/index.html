@@ -8,19 +8,34 @@
 </head>
 <body>
 
-    <div class="box">
+<div class="box">
 
-        <select onchange="showBook(this)">
-            <option value="">-- 请选择书卷 --</option>
-            {% for b in books %}
-                <option value="{{ b.id }}">{{ b.name_cn }}</option>
-            {% endfor %}
-        </select>
+    <div class="select-row">
+        <!-- ✅ 书卷下拉 -->
+        <div class="select-group">
+            <label for="book">书卷</label>
+            <select id="book" onchange="onBookChange(this)">
+                <option value="">-- 请选择书卷 --</option>
+                {% for b in books %}
+                    <option value="{{ b.id }}">{{ b.name_cn }}</option>
+                {% endfor %}
+            </select>
+        </div>
 
+        <!-- ✅ 章节下拉 -->
+        <div class="select-group">
+            <label for="chapter">章</label>
+            <select id="chapter" onchange="onChapterChange(this)" disabled>
+                <option value="">-- 请先选书卷 --</option>
+            </select>
+        </div>
     </div>
 
-    <!-- ✅ 引入 JS -->
-    <script src="{{ url_for('static', filename='js/book.js') }}"></script>
+    <div class="info" id="info">请选择书卷</div>
+</div>
+
+<script src="{{ url_for('static', filename='js/book.js') }}"></script>
+<script src="{{ url_for('static', filename='js/chapter.js') }}"></script>
 
 </body>
 </html>

@@ -1,6 +1,6 @@
 import os
 import sqlite3
-from flask import Flask, render_template, g
+from flask import Flask, render_template, g, jsonify
 
 BASE_DIR = os.path.abspath(os.path.dirname(__file__))
 DATABASE = os.path.join(BASE_DIR, "db", "bible.db")
@@ -26,6 +26,15 @@ def index():
         "SELECT id, name_cn FROM book ORDER BY order_index"
     ).fetchall()
     return render_template("index.html", books=books)
+
+@app.route("/chapters/<int:book_id>")
+def chapters(book_id):
+    db = get_db()
+    rows = db.execute(
+        "SELECT DISTINCT chapter FROM verse WHERE book_id = ? ORDER BY chapter",
+        (book_id,)
+    ).fetchall()
+    return jsonify([r["chapter"] for r in rows])
 
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)
