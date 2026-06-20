@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- ✅ 引入 CSS -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <div class="box">
+
+        <select onchange="showBook(this)">
+            <option value="">-- 请选择书卷 --</option>
+            {% for b in books %}
+                <option value="{{ b.id }}">{{ b.name_cn }}</option>
+            {% endfor %}
+        </select>
+
+    </div>
+
+    <!-- ✅ 引入 JS -->
+    <script src="{{ url_for('static', filename='js/book.js') }}"></script>
+
+</body>
+</html>
