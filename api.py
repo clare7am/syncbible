@@ -65,5 +65,44 @@ def verses(book_id, chapter):
         for r in rows
     ])
 
+@app.route("/verses_with_words/<int:book_id>/<int:chapter>")
+def verses_with_words(book_id, chapter):
+    db = get_db()
+
+    # 取经文
+    verses = db.execute(
+        """
+        SELECT id, verse
+        FROM verse
+        WHERE book_id = ? AND chapter = ?
+        ORDER BY verse
+        """,
+        (book_id, chapter)
+    ).fetchall()
+
+    result = []
+
+    for v in verses:
+        # 取这一节对应的单词
+        words = db.execute(
+            """
+            SELECT word, type
+            FROM words
+            WHERE verse_id = ?
+            ORDER BY order_index
+            """,
+            (v["id"],)
+        ).fetchall()
+
+        result.append({
+            "verse": v["verse"],
+            "words": [
+                {"word": w["word"], "type": w["type"]}
+                for w in words
+            ]
+        })
+
+    return jsonify(result)
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)

@@ -11,7 +11,7 @@ function loadVerses() {
 
     container.innerHTML = "<p>加载中...</p>";
 
-    fetch(`/verses/${bookId}/${chapter}`)
+    fetch(`/verses_with_words/${bookId}/${chapter}`)
         .then(res => res.json())
         .then(data => {
             if (data.length === 0) {
@@ -19,16 +19,22 @@ function loadVerses() {
                 return;
             }
 
-            container.innerHTML = data.map(v => `
-                <div class="verse-block">
-                    <div class="verse-num">${v.verse}</div>
-                    <div class="verse-en">${v.text_en}</div>
-                    <div class="verse-cn">${v.text_cn}</div>
-                </div>
-            `).join("");
+container.innerHTML = data.map(v => `
+    <div class="verse-block">
+        <div class="verse-num">${v.verse}</div>
+        <div class="verse-text">
+            ${v.words.map(w => {
+                if (w.type === 'person') {
+                    return `<span class="person">${w.word}</span>`;
+                }
+                return `<span>${w.word}</span>`;
+            }).join('')}
+        </div>
+    </div>
+`).join('');
         })
         .catch(err => {
             container.innerHTML = "<p>加载失败</p>";
             console.error(err);
         });
-}
+} 

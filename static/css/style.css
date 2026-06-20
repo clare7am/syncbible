@@ -92,3 +92,9 @@ select {
     color: #555;
     line-height: 1.6;
 }
+
+.person {
+    color: #2196F3;
+    text-decoration: underline;
+    font-weight: bold;
+}
