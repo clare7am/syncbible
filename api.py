@@ -86,7 +86,7 @@ def verses_with_words(book_id, chapter):
         # 取这一节对应的单词
         words = db.execute(
             """
-            SELECT word, type
+            SELECT word, type, entity_key
             FROM words
             WHERE verse_id = ?
             ORDER BY order_index
@@ -98,7 +98,10 @@ def verses_with_words(book_id, chapter):
             "verse": v["verse"],
             "text_cn": v["text_cn"],
             "words": [
-                {"word": w["word"], "type": w["type"]}
+                {"word": w["word"], 
+                 "type": w["type"], 
+                 "entity_key": w["entity_key"]
+                 }
                 for w in words
             ]
         })

@@ -24,15 +24,20 @@ container.innerHTML = data.map(v => `
         <div class="verse-num">${v.verse}</div>
         <div class="verse-text">
             ${v.words.map(w => {
-                if (w.type === 'person') {
-                    return `<span class="person">${w.word}</span>`;
-                }
-                return `<span>${w.word}</span>`;
-            }).join('')}
+                            const cls = w.type ? `class="${w.type}"` : '';
+                            const entityAttr = w.entity_key
+                                ? `data-entity-key="${w.entity_key}"`
+                                : '';
+                            return `<span ${cls} ${entityAttr}>${w.word}</span>`;
+            }).join('')};
+
         </div>
         <div class="verse-cn">${v.text_cn}</div>
     </div>
 `).join('');
+            if (typeof applyEntityStyles === "function") {
+                applyEntityStyles();
+            }
         })
         .catch(err => {
             container.innerHTML = "<p>加载失败</p>";
