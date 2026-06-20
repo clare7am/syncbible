@@ -55,3 +55,40 @@ select {
     border-radius: 4px;
     border: 1px solid #ddd;
 }
+
+
+/* 经文容器 */
+.verses-container {
+    margin-top: 30px;
+    text-align: left;
+}
+
+/* 单节经文 */
+.verse-block {
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid #eee;
+}
+
+/* 节号 */
+.verse-num {
+    font-weight: bold;
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 4px;
+}
+
+/* 英文经文 */
+.verse-en {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 4px;
+}
+
+/* 中文经文 */
+.verse-cn {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}

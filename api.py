@@ -45,5 +45,25 @@ def chapters(book_id):
     ).fetchall()
     return jsonify([r["chapter"] for r in rows])
 
+@app.route("/verses/<int:book_id>/<int:chapter>")
+def verses(book_id, chapter):
+    db = get_db()
+    rows = db.execute(
+        "SELECT verse, text_en, text_cn "
+        "FROM verse "
+        "WHERE book_id = ? AND chapter = ? "
+        "ORDER BY verse",
+        (book_id, chapter)
+    ).fetchall()
+
+    return jsonify([
+        {
+            "verse": r["verse"],
+            "text_en": r["text_en"],
+            "text_cn": r["text_cn"]
+        }
+        for r in rows
+    ])
+
 if __name__ == "__main__":
     app.run(host="0.0.0.0", port=8080, debug=True)

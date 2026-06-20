@@ -13,4 +13,6 @@ function onChapterChange(sel) {
     ].text;
 
     info.innerText = `当前选择：${bookName} 第 ${chapter} 章`;
+
+    loadVerses();// 重新加载经文
 }

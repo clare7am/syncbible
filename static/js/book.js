@@ -33,4 +33,6 @@ function onBookChange(sel) {
         });
 
     info.innerText = `已选择：${sel.options[sel.selectedIndex].text}`;
+
+    loadVerses();// 重新加载经文
 }

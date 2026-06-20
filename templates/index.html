@@ -2,16 +2,17 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
+    <title>选择书卷与章节</title>
 
-    <!-- ✅ 引入 CSS -->
+    <!-- ✅ 样式 -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
 
 <div class="box">
+    <h1>选择书卷与章节</h1>
 
-    <div class="select-row">
-        <!-- ✅ 书卷下拉 -->
+    <!-- ✅ 书卷下拉 -->
     <div class="select-row">
         <div class="select-group">
             <label for="book">书卷</label>
@@ -38,10 +39,19 @@
         </div>
     </div>
 
+    <div class="info" id="info">
+        默认：玛窦福音 {{ default_chapter }} 章
+    </div>
 </div>
 
+<div id="verses" class="verses-container"></div>
+
+<!-- ✅ JS -->
 <script src="{{ url_for('static', filename='js/book.js') }}"></script>
 <script src="{{ url_for('static', filename='js/chapter.js') }}"></script>
+<script src="{{ url_for('static', filename='js/verse.js') }}"></script>
+
+<script src="{{ url_for('static', filename='js/main.js') }}"></script>
 
 </body>
 </html>
