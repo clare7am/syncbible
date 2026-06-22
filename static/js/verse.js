@@ -29,7 +29,7 @@ container.innerHTML = data.map(v => `
                                 ? `data-entity-key="${w.entity_key}"`
                                 : '';
                             return `<span ${cls} ${entityAttr}>${w.word}</span>`;
-            }).join('')};
+            }).join('')}
 
         </div>
         <div class="verse-cn">${v.text_cn}</div>
