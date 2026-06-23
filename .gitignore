@@ -12,6 +12,11 @@ __pycache__/
 outputs/
 db/
 
+# 强制对齐
+corpus/
+forcealign/
+
+
 # 文件类型
 .env
 .DS_Store
