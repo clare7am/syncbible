@@ -28,13 +28,7 @@ container.innerHTML = data.map(v => `
                             const entityAttr = w.entity_key
                                 ? `data-entity-key="${w.entity_key}"`
                                 : '';
-                            return `<span 
-                                ${cls} 
-                                ${entityAttr}
-                                data-start="${w.start}"
-                                data-end="${w.end}">
-                                ${w.word}
-                            </span>`;
+                            return `<span ${cls} ${entityAttr} data-start="${w.start}" data-end="${w.end}">${w.word}</span>`;
             }).join('')}
 
         </div>
