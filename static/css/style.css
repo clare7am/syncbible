@@ -165,5 +165,16 @@ body {
     border-radius: 2px;
     accent-color: var(--accent-color);
     cursor: pointer;
-    margin-right: 30px; 
-} 
+    margin-right: 30px;
+}
+
+/* 滑块圆点（WebKit） */
+#progress::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--accent-color);
+    border: none;
+    box-shadow: 0 0 2px rgba(0,0,0,0.2);
+}

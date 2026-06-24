@@ -23,6 +23,20 @@ function stopAudio() {
     audio.currentTime = 0;
 }
 
+/* 拖动或点击进度条跳转 */
+progress.addEventListener('input', () => {
+    if (!audio.duration) return;
+    audio.currentTime = (progress.value / 100) * audio.duration;
+});
+
+/* 播放时同步进度条 */
+audio.addEventListener('timeupdate', () => {
+    if (audio.duration) {
+        progress.value = (audio.currentTime / audio.duration) * 100;
+    }
+});
+
+/* 播放暂停按钮 */
 audio.addEventListener('play', () => {
     playPauseBtn.textContent = '⏸ 暂停';
 });
