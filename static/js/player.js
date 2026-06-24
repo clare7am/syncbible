@@ -1,5 +1,6 @@
 const audio = document.getElementById('audio-player');
 const progress = document.getElementById('progress');
+const playPauseBtn = document.getElementById('play-pause-btn');
 
 // 暂时写死这一章（以后可以改成变量）
 const AUDIO_URL = '/static/audio/Mt_1_en.ogg';
@@ -9,18 +10,30 @@ window.addEventListener('DOMContentLoaded', () => {
     audio.src = AUDIO_URL;
 });
 
-function playAudio() {
-    audio.play();
-}
-
-function pauseAudio() {
-    audio.pause();
+function togglePlay() {
+    if (audio.paused) {
+        audio.play();
+    } else {
+        audio.pause();
+    }
 }
 
 function stopAudio() {
     audio.pause();
     audio.currentTime = 0;
 }
+
+audio.addEventListener('play', () => {
+    playPauseBtn.textContent = '⏸ 暂停';
+});
+
+audio.addEventListener('pause', () => {
+    playPauseBtn.textContent = '▶ 播放';
+});
+
+audio.addEventListener('ended', () => {
+    playPauseBtn.textContent = '▶ 播放';
+});
 
 /* 高亮 */
 audio.addEventListener('timeupdate', () => {

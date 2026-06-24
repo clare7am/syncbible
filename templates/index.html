@@ -40,9 +40,12 @@
 <div id="verses" class="verses-container"></div>
 
 <div class="player">
-    <button onclick="playAudio()">▶ 播放</button>
-    <button onclick="pauseAudio()">⏸ 暂停</button>
+    <!-- ✅ 合并播放/暂停 -->
+    <button id="play-pause-btn" onclick="togglePlay()">▶ 播放</button>
     <button onclick="stopAudio()">⏹ 停止</button>
+
+    <progress id="progress" value="0" max="100"></progress>
+</div>
 
     <progress id="progress" value="0" max="100"></progress>
 </div>
