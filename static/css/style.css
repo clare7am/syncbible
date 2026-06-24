@@ -98,3 +98,8 @@ select {
     text-decoration: underline;
     text-underline-offset: 3px; 
 }
+
+/* 单词高亮（播放器用） */
+.word.active {
+    background-color: #fff566; 
+}
