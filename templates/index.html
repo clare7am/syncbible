@@ -46,8 +46,19 @@
 
 <div id="verses" class="verses-container"></div>
 
-<!-- ✅ JS -->
+<div class="player">
+    <button onclick="playAudio()">▶ 播放</button>
+    <button onclick="pauseAudio()">⏸ 暂停</button>
+    <button onclick="stopAudio()">⏹ 停止</button>
+
+    <progress id="progress" value="0" max="100"></progress>
+</div>
+
+<audio id="audio-player" preload="auto"></audio>
+
+<!-- JS -->
 <script src="{{ url_for('static', filename='js/highlight.js') }}"></script>
+<script src="{{ url_for('static', filename='js/player.js') }}"></script>
 
 <script src="{{ url_for('static', filename='js/book.js') }}"></script>
 <script src="{{ url_for('static', filename='js/chapter.js') }}"></script>
