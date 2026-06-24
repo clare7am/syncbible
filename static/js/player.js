@@ -3,7 +3,7 @@ const progress = document.getElementById('progress');
 const playPauseBtn = document.getElementById('play-pause-btn');
 
 // 暂时写死这一章（以后可以改成变量）
-const AUDIO_URL = '/static/audio/Mt_1_en.ogg';
+const AUDIO_URL = '/static/audio/Mt_1_en.m4a';
 
 // 页面加载完就设好路径
 window.addEventListener('DOMContentLoaded', () => {
