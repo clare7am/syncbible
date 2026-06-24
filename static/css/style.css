@@ -1,105 +1,169 @@
+/* ===== Design Tokens ===== */
+:root {
+    --bg-color: #f8f8f8;
+    --card-bg: #ffffff;
+    --text-primary: #1a1a1a;
+    --text-secondary: #555;
+    --border-color: #e0e0e0;
+    --accent-color: #007aff;
+    --radius: 8px;
+    --shadow: 0 1px 3px rgba(0,0,0,0.05);
+}
+
 body {
-    font-family: Arial, sans-serif;
-    padding: 40px;
-    background: #f5f6fa;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue",
+                 "PingFang SC", "Microsoft YaHei", Arial, sans-serif;
+    background: var(--bg-color);
+    color: var(--text-primary);
+    line-height: 1.6;
+
+    /* 防止被固定顶底栏遮挡 */
+    padding-top: 72px; 
+    padding-bottom: 80px; 
 }
 
+/* ===== Top Bar — 书卷/章节选择 ===== */
 .box {
-    max-width: 500px;
-    margin: auto;
-    background: white;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-}
-
-h1 {
-    text-align: center;
-}
-
-select {
+    position: fixed;
+    top: 0;
+    left: 0;
     width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    margin-top: 20px;
-}
+    height: 56px;
+    background: var(--card-bg);
+    border-bottom: 1px solid var(--border-color);
+    box-shadow: var(--shadow);
+    z-index: 1000;
 
-.info {
-    margin-top: 20px;
-    text-align: center;
-    color: #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .select-row {
     display: flex;
-    gap: 20px;
-    margin-top: 20px;
+    gap: 12px;
 }
 
 .select-group {
-    flex: 1;
     display: flex;
-    flex-direction: column;
+    align-items: center;
 }
 
-.select-group label {
-    font-weight: bold;
-    margin-bottom: 6px;
-    color: #333;
+/* ===== Select 下拉 — iOS Card 风 ===== */
+.box select {
+    appearance: none;
+    -webkit-appearance: none;
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 6px 28px 6px 12px;
+    font-size: 14px;
+    color: var(--text-primary);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    background-image: url("data:image/svg+xml,%3Csvg width='10' height='6' viewBox='0 0 10 6' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L5 5L9 1' stroke='%23999' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 10px center;
 }
 
-.select-group select {
-    width: 100%;
-    padding: 12px;
-    font-size: 16px;
-    border-radius: 4px;
-    border: 1px solid #ddd;
+.box select:hover {
+    background-color: #f2f2f7;
 }
 
+.box select:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(0,122,255,0.15);
+}
 
-/* 经文容器 */
+/* ===== 经文容器 ===== */
 .verses-container {
-    margin-top: 30px;
-    text-align: left;
+    max-width: 640px;
+    margin: 0 auto;
+    padding: 0 16px;
 }
 
-/* 单节经文 */
 .verse-block {
     margin-bottom: 16px;
     padding-bottom: 12px;
     border-bottom: 1px solid #eee;
 }
 
-/* 节号 */
 .verse-num {
     font-weight: bold;
-    font-size: 14px;
+    font-size: 13px;
     color: #999;
     margin-bottom: 4px;
 }
 
-/* 英文经文 */
 .verse-en {
     font-size: 16px;
-    color: #333;
-    line-height: 1.6;
+    color: #222;
+    line-height: 1.7;
     margin-bottom: 4px;
 }
 
-/* 中文经文 */
 .verse-cn {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
-    margin-top: 4px;
+    font-size: 15px;
+    color: var(--text-secondary);
+    line-height: 1.7;
 }
 
 .entity {
     text-decoration: underline;
-    text-underline-offset: 3px; 
+    text-underline-offset: 3px;
 }
 
-/* 单词高亮（播放器用） */
 .word.active {
-    background-color: #fff566; 
+    background-color: #fff566; /* 金色高亮，同原 MyBible */
 }
+
+/* ===== 底部播放器 ===== */
+.player {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 64px;
+    background: var(--card-bg);
+    border-top: 1px solid var(--border-color);
+    box-shadow: 0 -1px 4px rgba(0,0,0,0.04);
+    z-index: 1000;
+
+    display: flex;
+    align-items:center;
+    padding: 0 16px;
+    gap: 10px;
+}
+
+/* 播放器按钮 */
+.player button {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    border-radius: var(--radius);
+    padding: 6px 14px;
+    font-size: 13px;
+    color: var(--text-primary);
+    cursor: pointer;
+    box-shadow: var(--shadow);
+    white-space: nowrap;
+}
+
+.player button:hover {
+    background: #f2f2f7;
+}
+
+.player button:active {
+    background: #e5e5ea;
+}
+
+/* 进度条 — iOS 细条 */
+#progress {
+    flex: 1;
+    height: 4px;
+    border-radius: 2px;
+    accent-color: var(--accent-color);
+    cursor: pointer;
+    margin-right: 30px; 
+} 

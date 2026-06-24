@@ -2,7 +2,8 @@
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>选择书卷与章节</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>MyBible.Help</title>
 
     <!-- ✅ 样式 -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -10,12 +11,9 @@
 <body>
 
 <div class="box">
-    <h1>选择书卷与章节</h1>
-
     <!-- ✅ 书卷下拉 -->
     <div class="select-row">
         <div class="select-group">
-            <label for="book">书卷</label>
             <select id="book" onchange="onBookChange(this)">
                 <option value="">-- 请选择书卷 --</option>
                 {% for b in books %}
@@ -29,7 +27,6 @@
 
         <!-- ✅ 章节下拉 -->
         <div class="select-group">
-            <label for="chapter">章</label>
             <select id="chapter" onchange="onChapterChange(this)">
                 <option value="">-- 请选择章 --</option>
                 <option value="{{ default_chapter }}" selected>
@@ -37,10 +34,6 @@
                 </option>
             </select>
         </div>
-    </div>
-
-    <div class="info" id="info">
-        默认：玛窦福音 {{ default_chapter }} 章
     </div>
 </div>
 
