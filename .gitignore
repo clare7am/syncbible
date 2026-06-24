@@ -10,7 +10,6 @@ __pycache__/
 
 # 文件夹
 outputs/
-db/
 
 # 强制对齐
 corpus/
@@ -20,5 +19,4 @@ forcealign/
 # 文件类型
 .env
 .DS_Store
-*.db
 *.mp3
