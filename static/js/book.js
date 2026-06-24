@@ -32,7 +32,7 @@ function onBookChange(sel) {
             console.error(err);
         });
 
-    info.innerText = `已选择：${sel.options[sel.selectedIndex].text}`;
+    // nfo.innerText = `已选择：${sel.options[sel.selectedIndex].text}`;
 
     loadVerses();// 重新加载经文
 }
