@@ -77,9 +77,6 @@ def verses(book_id, chapter):
 
 @app.route("/verses_with_words/<int:book_id>/<int:chapter>")
 def verses_with_words(book_id, chapter):
-    """
-    获取某章经文（来自 tokens 表）
-    """
     db = get_db()
 
     verses = db.execute(
@@ -98,14 +95,19 @@ def verses_with_words(book_id, chapter):
         words = db.execute(
             """
             SELECT
-                token AS word,
-                type,
-                entity_key
-            FROM tokens
-            WHERE book_id = ?
-              AND chapter = ?
-              AND verse = ?
-            ORDER BY chapter, verse, token_id
+                t.token AS word,
+                t.type,
+                t.entity_key,
+                t.align_id,
+                ts.start_time,
+                ts.end_time
+            FROM tokens t
+            LEFT JOIN timestamps ts
+              ON t.align_id = ts.id
+            WHERE t.book_id = ?
+              AND t.chapter = ?
+              AND t.verse = ?
+            ORDER BY t.chapter, t.verse, t.token_id
             """,
             (book_id, chapter, v["verse"])
         ).fetchall()
@@ -116,10 +118,11 @@ def verses_with_words(book_id, chapter):
             "words": [
                 {
                     "word": w["word"],
-                    "type": w["type"] if "type" in w else "",
-                    "entity_key": w["entity_key"] if "entity_key" in w else "",
-                    "start": "",
-                    "end": ""
+                    "type": w["type"] or "",
+                    "entity_key": w["entity_key"] or "",
+                    "align_id": w["align_id"] or "",
+                    "start": w["start_time"] or 0,
+                    "end": w["end_time"] or 0
                 }
                 for w in words
             ]

@@ -13,18 +13,30 @@ function clearWordHighlight() {
 function highlightWordAt(currentTimeMs) {
     clearWordHighlight();
 
-    document.querySelectorAll('.word').forEach(el => {
+    let activeAlignId = null;
+
+    document.querySelectorAll('.word[data-align-id]').forEach(el => {
         const start = Number(el.dataset.start);
-        const end   = Number(el.dataset.end);
+        const end = Number(el.dataset.end);
 
         if (!start || !end) return;
 
         if (currentTimeMs >= start && currentTimeMs < end) {
             el.classList.add('active');
-            el.scrollIntoView({
+            activeAlignId = el.dataset.alignId;
+        }
+    });
+
+    // ✅ 只高亮一个词（防抖动）
+    if (activeAlignId) {
+        const activeEl = document.querySelector(
+            `.word[data-align-id="${activeAlignId}"]`
+        );
+        if (activeEl) {
+            activeEl.scrollIntoView({
                 behavior: 'smooth',
                 block: 'center'
             });
         }
-    });
+    }
 }

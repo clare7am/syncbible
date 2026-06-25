@@ -23,14 +23,15 @@ container.innerHTML = data.map(v => `
     <div class="verse-block">
         <div class="verse-num">${v.verse}</div>
         <div class="verse-text">
-            ${v.words.map(w => {
-                            const cls = w.type ? `class="${w.type}"` : '';
-                            const entityAttr = w.entity_key
-                                ? `data-entity-key="${w.entity_key}"`
-                                : '';
-                            return `<span ${cls} ${entityAttr} data-start="${w.start}" data-end="${w.end}">${w.word}</span>`;
-            }).join('')}
-
+            ${v.words.map(w => `
+                <span
+                    class="${w.type || ''}"
+                    data-align-id="${w.align_id}"
+                    data-start="${w.start}"
+                    data-end="${w.end}"
+                    ${w.entity_key ? `data-entity-key="${w.entity_key}"` : ''}
+                >${w.word}</span>
+            `).join('')}
         </div>
         <div class="verse-cn">${v.text_cn}</div>
     </div>
