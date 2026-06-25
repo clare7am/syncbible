@@ -77,15 +77,27 @@ audio.addEventListener('timeupdate', () => {
     highlightWordAt(ms);
 });
 
-/* 按钮文字 */
+const iconPlay  = document.getElementById('icon-play');
+const iconPause = document.getElementById('icon-pause');
+
+/* 播放器按钮 */
 audio.addEventListener('play', () => {
-    playPauseBtn.textContent = '⏸ 暂停';
+    if (iconPlay && iconPause) {
+        iconPlay.style.display  = 'none';
+        iconPause.style.display = 'block';
+    }
 });
 
 audio.addEventListener('pause', () => {
-    playPauseBtn.textContent = '▶ 播放';
+    if (iconPlay && iconPause) {
+        iconPlay.style.display  = 'block';
+        iconPause.style.display = 'none';
+    }
 });
 
 audio.addEventListener('ended', () => {
-    playPauseBtn.textContent = '▶ 播放';
+    if (iconPlay && iconPause) {
+        iconPlay.style.display  = 'block';
+        iconPause.style.display = 'none';
+    }
 });

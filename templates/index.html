@@ -43,9 +43,28 @@
 <div id="verses" class="verses-container"></div>
 
 <div class="player">
-    <!-- 合并播放/暂停 -->
-    <button id="play-pause-btn" onclick="togglePlay()">▶ 播放</button>
-    <button onclick="stopAudio()">⏹ 停止</button>
+    <!-- 播放 / 暂停 按钮（SVG 图标版） -->
+    <button id="play-pause-btn" onclick="togglePlay()" aria-label="播放 / 暂停">
+        <!-- 播放 ▶ -->
+        <svg id="icon-play" class="ctrl-icon" viewBox="0 0 24 24" width="22" height="22"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="6 3 20 12 6 21 6 3"/>
+        </svg>
+
+        <!-- 暂停 ⏸ -->
+        <svg id="icon-pause" class="ctrl-icon" viewBox="0 0 24 24" width="22" height="22"
+             fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round"
+             style="display:none">
+            <line x1="6" y1="4" x2="6" y2="20"/>
+            <line x1="18" y1="4" x2="18" y2="20"/>
+        </svg>
+    </button>
+
+    <!-- 停止 
+    <button onclick="stopAudio()" aria-label="停止">⏹</button>
+    -->
 
     <input
         id="progress"
