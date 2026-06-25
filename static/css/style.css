@@ -178,3 +178,21 @@ body {
     border: none;
     box-shadow: 0 0 2px rgba(0,0,0,0.2);
 }
+
+/* ===== 仅扩大触控区域，不改变外观 ===== */
+#progress {
+    padding: 14px 0;
+    box-sizing: border-box;
+}
+
+/* 滑块稍微放大一点点，但不破坏风格 */
+#progress::-webkit-slider-thumb {
+    width: 16px;
+    height: 16px;
+}
+
+/* Firefox 保持一致 */
+#progress::-moz-range-thumb {
+    width: 16px;
+    height: 16px;
+}
