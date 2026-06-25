@@ -26,14 +26,9 @@ def close_db(exception=None):
 # ========= 页面 =========
 @app.route("/")
 def index():
-    """
-    首页
-    ✅ 不传默认书卷
-    ✅ 不自动加载章节
-    """
     db = get_db()
     books = db.execute(
-        "SELECT id, name_cn FROM book ORDER BY order_index"
+        "SELECT id, name_cn FROM book ORDER BY id"
     ).fetchall()
 
     return render_template("index.html", books=books)
