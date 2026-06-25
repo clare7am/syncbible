@@ -2,63 +2,88 @@ const audio = document.getElementById('audio-player');
 const progress = document.getElementById('progress');
 const playPauseBtn = document.getElementById('play-pause-btn');
 
+const iconPlay = document.getElementById('icon-play');
+const iconPause = document.getElementById('icon-pause');
+
 /* 书卷缩写映射 */
 const BOOK_ABBR = {
     12: '2K',
     47: 'Mt',
-    
     52: 'Rom'
 };
 
-/* ✅ 只从全局状态读 */
+/* ✅ 生成音频 URL（不动） */
 function getAudioUrl() {
-    console.log('🔍 [Player.js 内部] 读取到的全局状态 Bible.book:', Bible.book);
-    console.log('🔍 [Player.js 内部] 读取到的全局状态 Bible.chapter:', Bible.chapter);
-
     const abbr = BOOK_ABBR[Bible.book];
     if (!abbr || !Bible.chapter) return null;
-
     return `https://clare7am-audio.oss-cn-hangzhou.aliyuncs.com/${abbr}_${Bible.chapter}_en.m4a`;
 }
 
-/* ✅ 统一入口：章节切换时调用 */
+/* ✅ 统一入口：章节切换时调用（核心升级点） */
 function updateAudio() {
     const url = getAudioUrl();
 
-    console.log('🎧 当前音频地址:', url);
+    // 重置 UI
+    progress.value = 0;
+    clearWordHighlight();
 
+    // 暂停当前播放
+    audio.pause();
+    audio.currentTime = 0;
+
+    // 无 URL = 无音频
     if (!url) {
-        audio.removeAttribute('src');
-        progress.value = 0;
-        console.warn('⚠️ 没有生成音频地址');
+        disablePlayer();
+        console.warn('⚠️ 本书卷/章节无音频');
         return;
     }
 
-    audio.pause();
-    audio.currentTime = 0;
-    progress.value = 0;
+    // 先假设“有音频”
+    enablePlayer();
 
     audio.src = url;
     audio.load();
 
-    audio.addEventListener('error', () => {
-        console.error('❌ 音频加载失败', audio.error);
-    });
+    // ✅ 关键：检测音频是否真的存在
+    audio.addEventListener('error', function onError() {
+        disablePlayer();
+        console.error('❌ 音频加载失败（404 或无权限）');
+        audio.removeEventListener('error', onError);
+    }, { once: true });
 
-    audio.addEventListener('canplay', () => {
+    audio.addEventListener('canplay', function onCanPlay() {
+        enablePlayer();
         console.log('✅ 音频已准备好播放');
-    });
+        audio.removeEventListener('canplay', onCanPlay);
+    }, { once: true });
 }
 
-/* 播放 / 暂停 */
+/* ✅ 启用播放器 */
+function enablePlayer() {
+    playPauseBtn.disabled = false;
+    progress.disabled = false;
+    playPauseBtn.classList.remove('disabled');
+}
+
+/* ✅ 禁用播放器（无音频时） */
+function disablePlayer() {
+    playPauseBtn.disabled = true;
+    progress.disabled = true;
+    playPauseBtn.classList.add('disabled');
+
+    audio.removeAttribute('src');
+    audio.load();
+
+    if (iconPlay && iconPause) {
+        iconPlay.style.display = 'block';
+        iconPause.style.display = 'none';
+    }
+}
+
+/* 播放 / 暂停（加一层保护） */
 function togglePlay() {
-    if (!audio.src) return;
+    if (playPauseBtn.disabled || !audio.src) return;
     audio.paused ? audio.play() : audio.pause();
-}
-
-function stopAudio() {
-    audio.pause();
-    audio.currentTime = 0;
 }
 
 /* 进度条拖动 */
@@ -72,32 +97,27 @@ audio.addEventListener('timeupdate', () => {
     if (audio.duration) {
         progress.value = (audio.currentTime / audio.duration) * 100;
     }
-
-    const ms = Math.floor(audio.currentTime * 1000);
-    highlightWordAt(ms);
+    highlightWordAt(Math.floor(audio.currentTime * 1000));
 });
 
-const iconPlay  = document.getElementById('icon-play');
-const iconPause = document.getElementById('icon-pause');
-
-/* 播放器按钮 */
+/* 播放器按钮状态 */
 audio.addEventListener('play', () => {
     if (iconPlay && iconPause) {
-        iconPlay.style.display  = 'none';
+        iconPlay.style.display = 'none';
         iconPause.style.display = 'block';
     }
 });
 
 audio.addEventListener('pause', () => {
     if (iconPlay && iconPause) {
-        iconPlay.style.display  = 'block';
+        iconPlay.style.display = 'block';
         iconPause.style.display = 'none';
     }
 });
 
 audio.addEventListener('ended', () => {
     if (iconPlay && iconPause) {
-        iconPlay.style.display  = 'block';
+        iconPlay.style.display = 'block';
         iconPause.style.display = 'none';
     }
 });

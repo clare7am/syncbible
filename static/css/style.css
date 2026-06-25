@@ -213,3 +213,15 @@ body {
     pointer-events: none; /* 点击穿透到 button */
     color: var(--text-primary, #1a1a1a);
 }
+
+/* 切换章自动暂停 */
+#play-pause-btn.disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+/* 播放器不可用 */
+#progress:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+}
