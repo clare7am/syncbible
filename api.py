@@ -78,7 +78,7 @@ def verses(book_id, chapter):
 @app.route("/verses_with_words/<int:book_id>/<int:chapter>")
 def verses_with_words(book_id, chapter):
     """
-    获取某章经文（带单词，来自 tokens 表）
+    获取某章经文（来自 tokens 表）
     """
     db = get_db()
 
@@ -98,16 +98,14 @@ def verses_with_words(book_id, chapter):
         words = db.execute(
             """
             SELECT
-                token        AS word,
+                token AS word,
                 type,
-                entity_key,
-                NULL         AS start_time,
-                NULL         AS end_time
+                entity_key
             FROM tokens
             WHERE book_id = ?
               AND chapter = ?
               AND verse = ?
-            ORDER BY id
+            ORDER BY chapter, verse, token_id
             """,
             (book_id, chapter, v["verse"])
         ).fetchall()
