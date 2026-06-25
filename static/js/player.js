@@ -24,7 +24,7 @@ function getAudioUrl() {
 }
 
 /* =========================
-   同步播放按钮 SVG（唯一真理）
+   同步播放按钮 SVG
    ========================= */
 function syncPlayButtonIcon() {
     if (!iconPlay || !iconPause) return;
