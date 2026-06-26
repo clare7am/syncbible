@@ -12,10 +12,6 @@ window.addEventListener("DOMContentLoaded", () => {
     Bible.book = bookSelect.value;
     Bible.chapter = chapterSelect.value;
 
-    if (Bible.book && Bible.chapter) {
-        loadVerses();
-        if (typeof updateAudio === "function") {
-            updateAudio();
-        }
-    }
+    // ✅ 关键：手动触发一次，让章节列表完整加载
+    onBookChange(bookSelect);
 });

@@ -18,7 +18,7 @@ function onBookChange(sel) {
     fetch(`/chapters/${bookId}`)
         .then(res => res.json())
         .then(chapters => {
-            chapterSelect.innerHTML = '<option value="">-- 请选择章 --</option>';
+            chapterSelect.innerHTML = '';  // 不再插入 "-- 请选择章 --"
             chapters.forEach(ch => {
                 const option = document.createElement("option");
                 option.value = ch;
@@ -26,6 +26,10 @@ function onBookChange(sel) {
                 chapterSelect.appendChild(option);
             });
             chapterSelect.disabled = false;
+
+            // ✅ 默认选第一章并触发加载
+            chapterSelect.value = chapters[0];
+            onChapterChange(chapterSelect);
         })
         .catch(err => {
             chapterSelect.innerHTML = '<option value="">加载失败</option>';

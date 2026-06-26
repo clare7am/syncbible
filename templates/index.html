@@ -15,10 +15,9 @@
     <div class="select-row">
         <div class="select-group">
             <select id="book" onchange="onBookChange(this)">
-                <option value="">-- 请选择书卷 --</option>
                 {% for b in books %}
                     <option value="{{ b.id }}"
-                        {% if b.id == default_book_id %}selected{% endif %}>
+                        {% if b.id == 1 %}selected{% endif %}>   <!-- 默认创世纪 -->
                         {{ b.name_cn }}
                     </option>
                 {% endfor %}
@@ -28,10 +27,7 @@
         <!-- 章节下拉 -->
         <div class="select-group">
             <select id="chapter" onchange="onChapterChange(this)">
-                <option value="">-- 请选择章 --</option>
-                <option value="{{ default_chapter }}" selected>
-                    {{ default_chapter }}
-                </option>
+                <option value="1" selected>1</option>   <!-- 默认第一章 -->
             </select>
         </div>
     </div>
