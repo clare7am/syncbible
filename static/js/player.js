@@ -9,6 +9,7 @@ const iconPause = document.getElementById('icon-pause');
    书卷 → 音频文件名映射
    ========================= */
 const BOOK_ABBR = {
+    1: 'Gen',
     12: '2K',
     47: 'Mt',
     52: 'Rom'
