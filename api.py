@@ -75,6 +75,23 @@ def verses(book_id, chapter):
     ])
 
 
+@app.route("/has_tokens/<int:book_id>/<int:chapter>")
+def has_tokens(book_id, chapter):
+    db = get_db()
+    row = db.execute(
+        """
+        SELECT 1
+        FROM tokens
+        WHERE book_id = ? AND chapter = ?
+        LIMIT 1
+        """,
+        (book_id, chapter)
+    ).fetchone()
+
+    return jsonify({
+        "has_tokens": row is not None
+    })
+
 @app.route("/verses_with_words/<int:book_id>/<int:chapter>")
 def verses_with_words(book_id, chapter):
     db = get_db()
