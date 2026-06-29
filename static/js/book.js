@@ -19,16 +19,23 @@ function onBookChange(sel) {
         .then(res => res.json())
         .then(chapters => {
             chapterSelect.innerHTML = '';  // 不再插入 "-- 请选择章 --"
-            chapters.forEach(ch => {
+            chapters.forEach(item => {
                 const option = document.createElement("option");
-                option.value = ch;
-                option.innerText = ch;
+                option.value = item.chapter;
+
+                // 优先使用 chapter_title
+                option.innerText = item.chapter_title?.trim()
+                    ? item.chapter_title
+                    : item.chapter;
+
                 chapterSelect.appendChild(option);
             });
             chapterSelect.disabled = false;
 
-            // ✅ 默认选第一章并触发加载
-            chapterSelect.value = chapters[0];
+            // 默认选中第一章（数字最小）
+            const firstChapter = chapters[0]?.chapter;
+            chapterSelect.value = firstChapter;
+            onChapterChange(chapterSelect);
             onChapterChange(chapterSelect);
         })
         .catch(err => {

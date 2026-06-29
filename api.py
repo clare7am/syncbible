@@ -42,11 +42,22 @@ def chapters(book_id):
     """
     db = get_db()
     rows = db.execute(
-        "SELECT DISTINCT chapter FROM verses WHERE book_id = ? ORDER BY chapter",
+        """
+        SELECT DISTINCT chapter, chapter_title
+        FROM verses
+        WHERE book_id = ?
+        ORDER BY chapter
+        """,
         (book_id,)
     ).fetchall()
 
-    return jsonify([r["chapter"] for r in rows])
+    return jsonify([
+        {
+            "chapter": r["chapter"],
+            "chapter_title": r["chapter_title"]
+        }
+        for r in rows
+    ])
 
 
 @app.route("/verses/<int:book_id>/<int:chapter>")
