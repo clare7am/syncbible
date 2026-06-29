@@ -42,7 +42,7 @@ def chapters(book_id):
     """
     db = get_db()
     rows = db.execute(
-        "SELECT DISTINCT chapter FROM verse WHERE book_id = ? ORDER BY chapter",
+        "SELECT DISTINCT chapter FROM verses WHERE book_id = ? ORDER BY chapter",
         (book_id,)
     ).fetchall()
 
@@ -58,7 +58,7 @@ def verses(book_id, chapter):
     rows = db.execute(
         """
         SELECT verse, text_en, text_cn
-        FROM verse
+        FROM verses
         WHERE book_id = ? AND chapter = ?
         ORDER BY verse
         """,
@@ -99,7 +99,7 @@ def verses_with_words(book_id, chapter):
     verses = db.execute(
         """
         SELECT id, verse, text_cn
-        FROM verse
+        FROM verses
         WHERE book_id = ? AND chapter = ?
         ORDER BY verse
         """,
