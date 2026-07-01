@@ -19,9 +19,13 @@ const BOOK_ABBR = {
    生成当前章节音频 URL
    ========================= */
 function getAudioUrl() {
-    const abbr = BOOK_ABBR[Bible.book];
-    if (!abbr || !Bible.chapter) return null;
-    return `https://clare7am-audio.oss-cn-hangzhou.aliyuncs.com/${abbr}_${Bible.chapter}_en.m4a`;
+    const prefix = BOOK_ABBR[Bible.book];
+    if (!prefix || !Bible.chapter) return null;
+
+    const bookNum = String(Bible.book).padStart(2, '0');
+    const chapterStr = String(Bible.chapter).padStart(3, '0');
+
+    return `https://c7-audio.oss-cn-beijing.aliyuncs.com/${bookNum}_${prefix}_${chapterStr}_en.mp3`;
 }
 
 /* =========================
