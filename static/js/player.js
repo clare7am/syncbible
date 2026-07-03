@@ -132,56 +132,57 @@ function disablePlayer() {
     audio.pause();
     audio.removeAttribute('src');
     audio.load();
-    // ✅ 不手动改 SVG，由 pause 事件接管
 }
 
 /* =========================
    章节切换时统一入口
+   ✅ 不加载音频，只保存 URL
    ========================= */
 function updateAudio() {
     const url = getAudioUrl();
+
+    // 同一章节不重复处理
+    if (audio.src === url) return;
 
     // 清理 UI
     progress.value = 0;
     clearWordHighlight();
 
-    // ✅ 先暂停
     audio.pause();
     audio.currentTime = 0;
 
-    // ✅ 强制回到“播放态”图标（关键）
-    if (iconPlay && iconPause) {
-        iconPlay.style.display = 'block';
-        iconPause.style.display = 'none';
-    }
+    // ✅ 关键：移除 src，不触发下载
+    audio.removeAttribute('src');
+    audio.load();
 
-    // 无音频
+    // ✅ 暂存 URL，等用户点击播放再用
+    audio._pendingUrl = url;
+
     if (!url) {
         disablePlayer();
-        console.warn('⚠️ 本章节无音频');
         return;
     }
 
     enablePlayer();
-    audio.src = url;
-    audio.load();
 
-    audio.addEventListener('error', () => {
-        disablePlayer();
-        console.error('❌ 音频加载失败');
-    }, { once: true });
-
-    audio.addEventListener('canplay', () => {
-        enablePlayer();
-        console.log('✅ 音频已就绪');
-    }, { once: true });
+    // ✅ 只重置图标，不加载音频
+    iconPlay.style.display = 'block';
+    iconPause.style.display = 'none';
 }
 
 /* =========================
-   播放 / 暂停（受保护）
+   播放 / 暂停
+   ✅ 第一次播放才真正加载音频
    ========================= */
 function togglePlay() {
-    if (playPauseBtn.disabled || !audio.src) return;
+    if (playPauseBtn.disabled) return;
+
+    // ✅ 按需加载
+    if (!audio.src && audio._pendingUrl) {
+        audio.src = audio._pendingUrl;
+        audio.load();
+    }
+
     audio.paused ? audio.play() : audio.pause();
 }
 
