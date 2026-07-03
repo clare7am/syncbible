@@ -1,6 +1,38 @@
 // verse.js
 
-// 监听书卷和章节变化，自动加载经文
+// =====================
+// ✅ JSON 索引（启动时构建一次）
+// =====================
+const JSON_INDEX = new Set();
+
+(async function buildJsonIndex() {
+    try {
+        const res = await fetch("/static/json/");
+        const text = await res.text();
+
+        // 匹配：01_Gen_001.json
+        const pattern = /(\d{2})_([A-Za-z]+)_(\d{3})\.json/g;
+        let m;
+        while ((m = pattern.exec(text)) !== null) {
+            const bookId = Number(m[1]);
+            const chapter = Number(m[3]);
+            JSON_INDEX.add(`${bookId}_${chapter}`);
+        }
+
+        console.log("✅ JSON 索引构建完成：", JSON_INDEX.size, "章");
+    } catch (e) {
+        console.warn("⚠️ 无法读取 JSON 目录：", e);
+    }
+})();
+
+function hasJson(bookId, chapter) {
+    return JSON_INDEX.has(`${bookId}_${chapter}`);
+}
+
+
+// =====================
+// 监听书卷和章节变化
+// =====================
 function loadVerses() {
     const bookSelect = document.getElementById("book");
     const chapterSelect = document.getElementById("chapter");
@@ -16,7 +48,13 @@ function loadVerses() {
 
     container.innerHTML = "<p>加载中...</p>";
 
-    // ✅ 非 Genesis 书卷，继续走数据库判断
+    // ✅ 优先使用本地 JSON
+    if (hasJson(bookId, chapter)) {
+        loadJsonVerses(bookId, chapter, container);
+        return;
+    }
+
+    // ✅ 没有 JSON，走数据库
     fetch(`/has_tokens/${bookId}/${chapter}`)
         .then(res => res.json())
         .then(flag => {
@@ -32,113 +70,70 @@ function loadVerses() {
         });
 }
 
-/* ================= 有分词：流式渲染优化版 ================= */
-function loadTokenVerses(bookId, chapter, container) {
-    bookId = Number(bookId);
-    chapter = Number(chapter);
 
-    container.innerHTML = '<div class="loading">正在加载经文...</div>';
+// =====================
+// ✅ 直接读 JSON（不走数据库）
+// =====================
+function loadJsonVerses(bookId, chapter, container) {
+    const ch = String(chapter).padStart(3, "0");
+    const url = `/static/json/${String(bookId).padStart(2, "0")}_${getAbbr(bookId)}_${ch}.json`;
 
-    // ✅ 只要 bookId 是 1（Genesis），就直接读静态 JSON
-    let url;
-    if (bookId === 1) {
-        const ch = String(chapter).padStart(3, "0");
-        url = `/static/json/01_Gen_${ch}.json`;
-    } else {
-        url = `/verses_with_words/${bookId}/${chapter}`;
-    }
-
-    console.log("📖 经文来源：", url);
+    console.log("📖 使用本地 JSON：", url);
 
     fetch(url)
-        .then(async res => {
-            if (!res.ok) {
-                throw new Error(`HTTP ${res.status}: ${url}`);
-            }
+        .then(res => {
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
             return res.json();
         })
         .then(data => {
-            console.log("✅ 原始 JSON：", data);
-
-            // ✅ 安全取值（兼容对象和数组结构）
-            const verses = Array.isArray(data)
-                ? data
-                : (Array.isArray(data.verses) ? data.verses : []);
-
-            console.log("✅ verses 数量：", verses.length);
-
+            const verses = Array.isArray(data.verses) ? data.verses : [];
             if (verses.length === 0) {
                 container.innerHTML = "<p>暂无经文</p>";
                 return;
             }
-
-            container.innerHTML = "";
-            let index = 0;
-            const BATCH_SIZE = 3;
-
-            function renderBatch() {
-                const fragment = document.createDocumentFragment();
-
-                for (let i = 0; i < BATCH_SIZE && index < verses.length; i++, index++) {
-                    const v = verses[index];
-
-                    // ✅ 防止 verse / words 不存在
-                    if (!v || !Array.isArray(v.words)) {
-                        continue;
-                    }
-
-                    const verseBlock = document.createElement("div");
-                    verseBlock.className = "verse-block";
-
-                    const verseNum = document.createElement("div");
-                    verseNum.className = "verse-num";
-                    verseNum.textContent = v.verse ?? "";
-
-                    const verseText = document.createElement("div");
-                    verseText.className = "verse-text";
-
-                    v.words.forEach(w => {
-                        if (!w || !w.word) return;
-
-                        const span = document.createElement("span");
-                        span.className = w.type || '';
-                        span.textContent = w.word;
-                        span.dataset.alignId = w.align_id || "";
-                        span.dataset.start = w.start || 0;
-                        span.dataset.end = w.end || 0;
-                        if (w.entity_key) {
-                            span.dataset.entityKey = w.entity_key;
-                        }
-                        verseText.appendChild(span);
-                    });
-
-                    const verseCn = document.createElement("div");
-                    verseCn.className = "verse-cn";
-                    verseCn.textContent = v.text_cn || "";
-
-                    verseBlock.appendChild(verseNum);
-                    verseBlock.appendChild(verseText);
-                    verseBlock.appendChild(verseCn);
-
-                    fragment.appendChild(verseBlock);
-                }
-
-                container.appendChild(fragment);
-
-                if (index < verses.length) {
-                    requestAnimationFrame(renderBatch);
-                }
-            }
-
-            renderBatch();
+            renderVerses(verses, container);
         })
         .catch(err => {
             container.innerHTML = "<p>加载失败</p>";
-            console.error("❌ 经文加载错误：", err);
+            console.error("❌ JSON 加载错误：", err);
         });
 }
 
-/* ================= 无分词：兜底逻辑 ================= */
+
+// =====================
+// 有分词（数据库）
+// =====================
+function loadTokenVerses(bookId, chapter, container) {
+    container.innerHTML = '<div class="loading">正在加载经文...</div>';
+
+    const ch = String(chapter).padStart(3, "0");
+    const url = `/static/json/${String(bookId).padStart(2, "0")}_${getAbbr(bookId)}_${ch}.json`;
+
+    console.log("📖 经文来源（数据库分词）：", url);
+
+    fetch(url)
+        .then(async res => {
+            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            return res.json();
+        })
+        .then(data => {
+            const verses = Array.isArray(data.verses) ? data.verses : [];
+            if (verses.length === 0) {
+                container.innerHTML = "<p>暂无经文</p>";
+                return;
+            }
+            renderVerses(verses, container);
+        })
+        .catch(err => {
+            container.innerHTML = "<p>加载失败</p>";
+            console.error("❌ 分词加载错误：", err);
+        });
+}
+
+
+// =====================
+// 无分词兜底
+// =====================
 function loadPlainVerses(bookId, chapter, container) {
     fetch(`/verses/${bookId}/${chapter}`)
         .then(res => res.json())
@@ -147,7 +142,6 @@ function loadPlainVerses(bookId, chapter, container) {
                 container.innerHTML = "<p>暂无经文</p>";
                 return;
             }
-
             container.innerHTML = data.map(v => `
                 <div class="verse-block">
                     <div class="verse-num">${v.verse}</div>
@@ -160,4 +154,88 @@ function loadPlainVerses(bookId, chapter, container) {
             container.innerHTML = "<p>加载失败</p>";
             console.error(err);
         });
+}
+
+
+// =====================
+// ✅ 公共渲染函数
+// =====================
+function renderVerses(verses, container) {
+    container.innerHTML = "";
+    let index = 0;
+    const BATCH_SIZE = 3;
+
+    function renderBatch() {
+        const fragment = document.createDocumentFragment();
+
+        for (let i = 0; i < BATCH_SIZE && index < verses.length; i++, index++) {
+            const v = verses[index];
+            if (!v || !Array.isArray(v.words)) continue;
+
+            const verseBlock = document.createElement("div");
+            verseBlock.className = "verse-block";
+
+            const verseNum = document.createElement("div");
+            verseNum.className = "verse-num";
+            verseNum.textContent = v.verse ?? "";
+
+            const verseText = document.createElement("div");
+            verseText.className = "verse-text";
+
+            v.words.forEach(w => {
+                if (!w || !w.word) return;
+                const span = document.createElement("span");
+                span.className = w.type || '';
+                span.textContent = w.word;
+                span.dataset.alignId = w.align_id || "";
+                span.dataset.start = w.start || 0;
+                span.dataset.end = w.end || 0;
+                if (w.entity_key) {
+                    span.dataset.entityKey = w.entity_key;
+                }
+                verseText.appendChild(span);
+            });
+
+            const verseCn = document.createElement("div");
+            verseCn.className = "verse-cn";
+            verseCn.textContent = v.text_cn || "";
+
+            verseBlock.appendChild(verseNum);
+            verseBlock.appendChild(verseText);
+            verseBlock.appendChild(verseCn);
+            fragment.appendChild(verseBlock);
+        }
+
+        container.appendChild(fragment);
+        if (index < verses.length) {
+            requestAnimationFrame(renderBatch);
+        }
+    }
+
+    renderBatch();
+}
+
+
+// =====================
+// ✅ 书卷缩写映射（必须）
+// =====================
+function getAbbr(bookId) {
+    const MAP = {
+        1:"Gen",2:"Ex",3:"Lev",4:"Num",5:"Dt",
+        6:"Jos",7:"Jdg",8:"Ru",9:"1S",10:"2S",
+        11:"1K",12:"2K",13:"1Chr",14:"2Chr",
+        15:"Ezra",16:"Ne",17:"Tb",18:"Jdt",19:"Es",
+        20:"1Mac",21:"2Mac",22:"Job",23:"Ps",24:"Pro",
+        25:"Ecl",26:"Song",27:"Wis",28:"Sir",29:"Is",
+        30:"Jer",31:"Lm",32:"Bar",33:"Ezk",34:"Dn",
+        35:"Hos",36:"Jl",37:"Am",38:"Ob",39:"Jon",
+        40:"Mic",41:"Nh",42:"Hb",43:"Zep",44:"Hg",
+        45:"Zec",46:"Mal",47:"Mt",48:"Mk",49:"Lk",
+        50:"Jn",51:"Acts",52:"Rom",53:"1Cor",54:"2Cor",
+        55:"Gal",56:"Eph",57:"Phil",58:"Col",59:"1Thes",
+        60:"2Thes",61:"1Tim",62:"2Tim",63:"Tit",64:"Phlm",
+        65:"Heb",66:"Jas",67:"1P",68:"2P",69:"1Jn",
+        70:"2Jn",71:"3Jn",72:"Jd",73:"Rev"
+    };
+    return MAP[bookId] || "";
 }
