@@ -107,54 +107,52 @@ def has_tokens(book_id, chapter):
 def verses_with_words(book_id, chapter):
     db = get_db()
 
-    verses = db.execute(
-        """
-        SELECT id, verse, text_cn
-        FROM verses
-        WHERE book_id = ? AND chapter = ?
-        ORDER BY verse
-        """,
-        (book_id, chapter)
-    ).fetchall()
+    rows = db.execute("""
+        SELECT
+            v.verse,
+            v.text_cn,
+            t.token       AS word,
+            t.type,
+            t.entity_key,
+            t.align_id,
+            t.token_id,
+            ts.start_time,
+            ts.end_time
+        FROM verses v
+        LEFT JOIN tokens t
+            ON v.book_id = t.book_id
+           AND v.chapter = t.chapter
+           AND v.verse   = t.verse
+        LEFT JOIN timestamps ts
+            ON t.align_id = ts.id
+        WHERE v.book_id = ?
+          AND v.chapter = ?
+        ORDER BY v.verse, t.token_id
+    """, (book_id, chapter)).fetchall()
 
     result = []
+    current_verse = None
+    verse_obj = None
 
-    for v in verses:
-        words = db.execute(
-            """
-            SELECT
-                t.token AS word,
-                t.type,
-                t.entity_key,
-                t.align_id,
-                ts.start_time,
-                ts.end_time
-            FROM tokens t
-            LEFT JOIN timestamps ts
-              ON t.align_id = ts.id
-            WHERE t.book_id = ?
-              AND t.chapter = ?
-              AND t.verse = ?
-            ORDER BY t.chapter, t.verse, t.token_id
-            """,
-            (book_id, chapter, v["verse"])
-        ).fetchall()
+    for r in rows:
+        if current_verse != r["verse"]:
+            verse_obj = {
+                "verse": r["verse"],
+                "text_cn": r["text_cn"],
+                "words": []
+            }
+            result.append(verse_obj)
+            current_verse = r["verse"]
 
-        result.append({
-            "verse": v["verse"],
-            "text_cn": v["text_cn"],
-            "words": [
-                {
-                    "word": w["word"],
-                    "type": w["type"] or "",
-                    "entity_key": w["entity_key"] or "",
-                    "align_id": w["align_id"] or "",
-                    "start": w["start_time"] or 0,
-                    "end": w["end_time"] or 0
-                }
-                for w in words
-            ]
-        })
+        if r["word"]:  # 有些 verse 可能没有 token
+            verse_obj["words"].append({
+                "word": r["word"],
+                "type": r["type"] or "",
+                "entity_key": r["entity_key"] or "",
+                "align_id": r["align_id"] or "",
+                "start": r["start_time"] or 0,
+                "end": r["end_time"] or 0
+            })
 
     return jsonify(result)
 

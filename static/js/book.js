@@ -36,7 +36,6 @@ function onBookChange(sel) {
             const firstChapter = chapters[0]?.chapter;
             chapterSelect.value = firstChapter;
             onChapterChange(chapterSelect);
-            onChapterChange(chapterSelect);
         })
         .catch(err => {
             chapterSelect.innerHTML = '<option value="">加载失败</option>';
