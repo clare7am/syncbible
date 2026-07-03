@@ -1,0 +1,7197 @@
+{
+  "has_tokens": true,
+  "verses": [
+    {
+      "verse": 1,
+      "text_cn": "亚巴郎的妻子撒辣依，没有给他生孩子，她有个埃及婢女，名叫哈加尔。",
+      "words": [
+        {
+          "word": "Now",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0001",
+          "start": 120,
+          "end": 340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0002",
+          "start": 340,
+          "end": 1040
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0003",
+          "start": 1390,
+          "end": 1620
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0004",
+          "start": 1620,
+          "end": 1850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wife",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0005",
+          "start": 1850,
+          "end": 2320
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bore",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0006",
+          "start": 2590,
+          "end": 2800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0007",
+          "start": 2800,
+          "end": 3040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "no",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0008",
+          "start": 3040,
+          "end": 3230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "children",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0009",
+          "start": 3230,
+          "end": 3890
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "She",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0010",
+          "start": 4470,
+          "end": 4690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "had",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0011",
+          "start": 4690,
+          "end": 4940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0012",
+          "start": 4940,
+          "end": 5080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Egyptian",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0013",
+          "start": 5080,
+          "end": 5630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0014",
+          "start": 5630,
+          "end": 6090
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "girl",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0015",
+          "start": 6090,
+          "end": 6440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "whose",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0016",
+          "start": 6440,
+          "end": 6750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "name",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0017",
+          "start": 6750,
+          "end": 7020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0018",
+          "start": 7020,
+          "end": 7180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0019",
+          "start": 7180,
+          "end": 7770
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 2,
+      "text_cn": "撒辣依就对亚巴郎说：“请看，上主既使我不能生育，你可去亲近我的婢女，或许我能由她得到孩子。”亚巴郎就听了撒辣依的话。",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0020",
+          "start": 8200,
+          "end": 8360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0021",
+          "start": 8360,
+          "end": 8840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0022",
+          "start": 8840,
+          "end": 9150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0023",
+          "start": 9150,
+          "end": 9410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0024",
+          "start": 9410,
+          "end": 9780
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0025",
+          "start": 10170,
+          "end": 10300
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "see",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0026",
+          "start": 10300,
+          "end": 10580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0027",
+          "start": 10580,
+          "end": 10790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0028",
+          "start": 10790,
+          "end": 10900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0029",
+          "start": 10900,
+          "end": 11200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "has",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0030",
+          "start": 11200,
+          "end": 11360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "prevented",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0031",
+          "start": 11360,
+          "end": 11910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "me",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0032",
+          "start": 11910,
+          "end": 12060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0033",
+          "start": 12060,
+          "end": 12290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bearing",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0034",
+          "start": 12290,
+          "end": 12650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "children",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0035",
+          "start": 12650,
+          "end": 13230
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "go",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0036",
+          "start": 13630,
+          "end": 13830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0037",
+          "start": 13830,
+          "end": 13980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0038",
+          "start": 13980,
+          "end": 14100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "my",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0039",
+          "start": 14100,
+          "end": 14290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0040",
+          "start": 14290,
+          "end": 14740
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "girl",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0041",
+          "start": 14740,
+          "end": 15110
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0042",
+          "start": 15790,
+          "end": 15960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "may",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0043",
+          "start": 15960,
+          "end": 16150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0044",
+          "start": 16150,
+          "end": 16410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0045",
+          "start": 16410,
+          "end": 16600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0046",
+          "start": 16600,
+          "end": 16710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0047",
+          "start": 16710,
+          "end": 16940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "obtain",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0048",
+          "start": 16940,
+          "end": 17390
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "children",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0049",
+          "start": 17390,
+          "end": 17890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0050",
+          "start": 17890,
+          "end": 18100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0051",
+          "start": 18100,
+          "end": 18480
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "And",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0052",
+          "start": 19120,
+          "end": 19280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0053",
+          "start": 19280,
+          "end": 19730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "listened",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0054",
+          "start": 19730,
+          "end": 20130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0055",
+          "start": 20130,
+          "end": 20240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0056",
+          "start": 20240,
+          "end": 20340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "voice",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0057",
+          "start": 20340,
+          "end": 20710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0058",
+          "start": 20710,
+          "end": 20830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0059",
+          "start": 20830,
+          "end": 21470
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 3,
+      "text_cn": "亚巴郎住在客纳罕地十年后，亚巴郎的妻子撒辣依将自己的埃及婢女哈加尔，给了丈夫亚巴郎做妾。",
+      "words": [
+        {
+          "word": "So",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0060",
+          "start": 22260,
+          "end": 22700
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "after",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0061",
+          "start": 22940,
+          "end": 23250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0062",
+          "start": 23250,
+          "end": 23660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "had",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0063",
+          "start": 23660,
+          "end": 23890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lived",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0064",
+          "start": 23890,
+          "end": 24230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ten",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0065",
+          "start": 24230,
+          "end": 24500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "years",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0066",
+          "start": 24500,
+          "end": 24900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0067",
+          "start": 24900,
+          "end": 25010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0068",
+          "start": 25010,
+          "end": 25110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "land",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0069",
+          "start": 25110,
+          "end": 25420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0070",
+          "start": 25420,
+          "end": 25550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Canaan",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0071",
+          "start": 25550,
+          "end": 26060
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0072",
+          "start": 26410,
+          "end": 27060
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0073",
+          "start": 27360,
+          "end": 27600
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0074",
+          "start": 27600,
+          "end": 27840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wife",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0075",
+          "start": 27840,
+          "end": 28280
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "took",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0076",
+          "start": 28730,
+          "end": 28930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0077",
+          "start": 28930,
+          "end": 29400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0078",
+          "start": 29400,
+          "end": 29560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Egyptian",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0079",
+          "start": 29560,
+          "end": 30180
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0080",
+          "start": 30440,
+          "end": 30560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0081",
+          "start": 30560,
+          "end": 30980
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "girl",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0082",
+          "start": 30980,
+          "end": 31350
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0083",
+          "start": 31740,
+          "end": 31880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "gave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0084",
+          "start": 31880,
+          "end": 32120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0085",
+          "start": 32120,
+          "end": 32240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0086",
+          "start": 32240,
+          "end": 32420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0087",
+          "start": 32420,
+          "end": 32550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "husband",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0088",
+          "start": 32550,
+          "end": 33050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0089",
+          "start": 33050,
+          "end": 33520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0090",
+          "start": 33520,
+          "end": 33740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0091",
+          "start": 33740,
+          "end": 33800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wife",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0092",
+          "start": 33800,
+          "end": 34230
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 4,
+      "text_cn": "亚巴郎自从同哈加尔亲近，哈加尔就怀了孕；她见自己怀了孕；就看不起自己的主母。",
+      "words": [
+        {
+          "word": "He",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0093",
+          "start": 34470,
+          "end": 34600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "went",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0094",
+          "start": 34600,
+          "end": 34900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0095",
+          "start": 34900,
+          "end": 35110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0096",
+          "start": 35110,
+          "end": 35210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0097",
+          "start": 35210,
+          "end": 35900
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0098",
+          "start": 36040,
+          "end": 36180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0099",
+          "start": 36180,
+          "end": 36330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "conceived",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0100",
+          "start": 36330,
+          "end": 37020
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0101",
+          "start": 37430,
+          "end": 37590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0102",
+          "start": 37590,
+          "end": 37720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0103",
+          "start": 37720,
+          "end": 37880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "saw",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0104",
+          "start": 37880,
+          "end": 38200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0105",
+          "start": 38200,
+          "end": 38350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0106",
+          "start": 38350,
+          "end": 38530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "had",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0107",
+          "start": 38530,
+          "end": 38670
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "conceived",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0108",
+          "start": 38670,
+          "end": 39380
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0109",
+          "start": 39720,
+          "end": 39970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "looked",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0110",
+          "start": 39970,
+          "end": 40270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0111",
+          "start": 40270,
+          "end": 40410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "contempt",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0112",
+          "start": 40410,
+          "end": 40990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0113",
+          "start": 40990,
+          "end": 41110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0114",
+          "start": 41110,
+          "end": 41220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mistress",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0115",
+          "start": 41220,
+          "end": 41830
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 5,
+      "text_cn": "撒辣依对亚巴郎说：“我受羞辱是你的过错。我将我的婢女放在你怀里，她一见自己怀了孕，便看不起我。愿上主在我与你之间来判断！”",
+      "words": [
+        {
+          "word": "Then",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0116",
+          "start": 42450,
+          "end": 42670
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0117",
+          "start": 42670,
+          "end": 43210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0118",
+          "start": 43210,
+          "end": 43590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0119",
+          "start": 43620,
+          "end": 43750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0120",
+          "start": 43750,
+          "end": 44140
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "May",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0121",
+          "start": 44550,
+          "end": 44720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0122",
+          "start": 44720,
+          "end": 44860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wrong",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0123",
+          "start": 44860,
+          "end": 45250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "done",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0124",
+          "start": 45250,
+          "end": 45500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0125",
+          "start": 45500,
+          "end": 45650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "me",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0126",
+          "start": 45650,
+          "end": 45870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0127",
+          "start": 45870,
+          "end": 46090
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0128",
+          "start": 46090,
+          "end": 46320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0129",
+          "start": 46320,
+          "end": 46570
+        },
+        {
+          "word": "!",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0130",
+          "start": 47040,
+          "end": 47160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "gave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0131",
+          "start": 47160,
+          "end": 47480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "my",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0132",
+          "start": 47480,
+          "end": 47630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0133",
+          "start": 47630,
+          "end": 48060
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "girl",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0134",
+          "start": 48060,
+          "end": 48300
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0135",
+          "start": 48300,
+          "end": 48470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0136",
+          "start": 48470,
+          "end": 48660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "embrace",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0137",
+          "start": 48660,
+          "end": 49310
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0138",
+          "start": 49690,
+          "end": 49860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0139",
+          "start": 49860,
+          "end": 50000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0140",
+          "start": 50000,
+          "end": 50160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "saw",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0141",
+          "start": 50160,
+          "end": 50530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0142",
+          "start": 50530,
+          "end": 50700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0143",
+          "start": 50700,
+          "end": 50860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "had",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0144",
+          "start": 50860,
+          "end": 51020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "conceived",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0145",
+          "start": 51020,
+          "end": 51760
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0146",
+          "start": 52070,
+          "end": 52290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "looked",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0147",
+          "start": 52290,
+          "end": 52560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0148",
+          "start": 52560,
+          "end": 52750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "me",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0149",
+          "start": 52750,
+          "end": 52890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0150",
+          "start": 52890,
+          "end": 53110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "contempt",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0151",
+          "start": 53110,
+          "end": 53730
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "May",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0152",
+          "start": 54250,
+          "end": 54420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0153",
+          "start": 54420,
+          "end": 54550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0154",
+          "start": 54550,
+          "end": 54890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "judge",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0155",
+          "start": 54890,
+          "end": 55360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "between",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0156",
+          "start": 55360,
+          "end": 55780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0157",
+          "start": 55780,
+          "end": 56050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0158",
+          "start": 56090,
+          "end": 56280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "me",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0159",
+          "start": 56280,
+          "end": 56620
+        },
+        {
+          "word": "!",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 6,
+      "text_cn": "亚巴郎对撒辣依说：“你的婢女是在你手中；你看怎样好，就怎样待她吧！”于是撒辣依就虐待她，她便由撒辣依面前逃跑了。",
+      "words": [
+        {
+          "word": "But",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0160",
+          "start": 57020,
+          "end": 57200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0161",
+          "start": 57200,
+          "end": 57560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0162",
+          "start": 57560,
+          "end": 57840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0163",
+          "start": 57840,
+          "end": 57930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0164",
+          "start": 57930,
+          "end": 58570
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0165",
+          "start": 58980,
+          "end": 59130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0166",
+          "start": 59130,
+          "end": 59570
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "girl",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0167",
+          "start": 59570,
+          "end": 59910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0168",
+          "start": 59910,
+          "end": 60040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0169",
+          "start": 60040,
+          "end": 60210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0170",
+          "start": 60210,
+          "end": 60320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "power",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0171",
+          "start": 60320,
+          "end": 60820
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "do",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0172",
+          "start": 61170,
+          "end": 61410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0173",
+          "start": 61410,
+          "end": 61590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0174",
+          "start": 61590,
+          "end": 61830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0175",
+          "start": 61830,
+          "end": 61990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0176",
+          "start": 61990,
+          "end": 62100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "please",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0177",
+          "start": 62100,
+          "end": 62720
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Then",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0178",
+          "start": 63340,
+          "end": 63580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0179",
+          "start": 63580,
+          "end": 64140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dealt",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0180",
+          "start": 64140,
+          "end": 64440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "harshly",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0181",
+          "start": 64440,
+          "end": 65000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0182",
+          "start": 65000,
+          "end": 65210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0183",
+          "start": 65210,
+          "end": 65560
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0184",
+          "start": 65800,
+          "end": 65960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0185",
+          "start": 65960,
+          "end": 66130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ran",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0186",
+          "start": 66130,
+          "end": 66390
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "away",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0187",
+          "start": 66390,
+          "end": 66650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0188",
+          "start": 66650,
+          "end": 66900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0189",
+          "start": 66900,
+          "end": 67140
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 7,
+      "text_cn": "上主的使者在旷野的水泉旁，即在往叔尔道上的水泉旁，遇见了她，",
+      "words": [
+        {
+          "word": "The",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0190",
+          "start": 67910,
+          "end": 68110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "angel",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0191",
+          "start": 68110,
+          "end": 68520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0192",
+          "start": 68520,
+          "end": 68660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0193",
+          "start": 68660,
+          "end": 68770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0194",
+          "start": 68770,
+          "end": 69190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "found",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0195",
+          "start": 69190,
+          "end": 69550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0196",
+          "start": 69550,
+          "end": 69730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0197",
+          "start": 69730,
+          "end": 69960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0198",
+          "start": 69960,
+          "end": 70050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "spring",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0199",
+          "start": 70050,
+          "end": 70450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0200",
+          "start": 70450,
+          "end": 70570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "water",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0201",
+          "start": 70570,
+          "end": 71030
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0202",
+          "start": 71030,
+          "end": 71150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0203",
+          "start": 71150,
+          "end": 71230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wilderness",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0204",
+          "start": 71230,
+          "end": 72010
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0205",
+          "start": 72360,
+          "end": 72460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "spring",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0206",
+          "start": 72460,
+          "end": 72890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0207",
+          "start": 72890,
+          "end": 73020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0208",
+          "start": 73020,
+          "end": 73120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "way",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0209",
+          "start": 73120,
+          "end": 73340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0210",
+          "start": 73340,
+          "end": 73430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Shur",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0211",
+          "start": 73430,
+          "end": 73840
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 8,
+      "text_cn": "对她说：“撒辣依的婢女哈加尔！你从哪里来，要往哪里去？”她答说：“我由我主母撒辣依那里逃出来的。”",
+      "words": [
+        {
+          "word": "And",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0212",
+          "start": 74250,
+          "end": 74430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "he",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0213",
+          "start": 74430,
+          "end": 74570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0214",
+          "start": 74570,
+          "end": 75040
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0215",
+          "start": 75480,
+          "end": 76130
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0216",
+          "start": 76290,
+          "end": 76780
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "girl",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0217",
+          "start": 76780,
+          "end": 77070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0218",
+          "start": 77070,
+          "end": 77180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0219",
+          "start": 77180,
+          "end": 77840
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "where",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0220",
+          "start": 78170,
+          "end": 78420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0221",
+          "start": 78420,
+          "end": 78630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0222",
+          "start": 78630,
+          "end": 78740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "come",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0223",
+          "start": 78740,
+          "end": 79030
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0224",
+          "start": 79030,
+          "end": 79460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0225",
+          "start": 79660,
+          "end": 79820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "where",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0226",
+          "start": 79820,
+          "end": 80040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0227",
+          "start": 80040,
+          "end": 80100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0228",
+          "start": 80100,
+          "end": 80310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "going",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0229",
+          "start": 80310,
+          "end": 80830
+        },
+        {
+          "word": "?",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "She",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0230",
+          "start": 81240,
+          "end": 81450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0231",
+          "start": 81450,
+          "end": 81870
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0232",
+          "start": 82280,
+          "end": 82390
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "am",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0233",
+          "start": 82390,
+          "end": 82570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "running",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0234",
+          "start": 82570,
+          "end": 82860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "away",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0235",
+          "start": 82860,
+          "end": 83240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0236",
+          "start": 83240,
+          "end": 83440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "my",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0237",
+          "start": 83440,
+          "end": 83610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mistress",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0238",
+          "start": 83610,
+          "end": 84100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sarai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0239",
+          "start": 84100,
+          "end": 84770
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 9,
+      "text_cn": "上主的使者对她说：“你要回到你主母那里，屈服在她手下。”",
+      "words": [
+        {
+          "word": "The",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0240",
+          "start": 85450,
+          "end": 85640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "angel",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0241",
+          "start": 85640,
+          "end": 86040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0242",
+          "start": 86040,
+          "end": 86160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0243",
+          "start": 86160,
+          "end": 86270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0244",
+          "start": 86270,
+          "end": 86680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0245",
+          "start": 86680,
+          "end": 86960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0246",
+          "start": 86960,
+          "end": 87040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0247",
+          "start": 87040,
+          "end": 87390
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Return",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0248",
+          "start": 87850,
+          "end": 88310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0249",
+          "start": 88310,
+          "end": 88460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0250",
+          "start": 88460,
+          "end": 88610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mistress",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0251",
+          "start": 88610,
+          "end": 89310
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0252",
+          "start": 89530,
+          "end": 89690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "submit",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0253",
+          "start": 89690,
+          "end": 90120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0254",
+          "start": 90120,
+          "end": 90240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0255",
+          "start": 90240,
+          "end": 90540
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 10,
+      "text_cn": "上主的使者又对她说：“我要使你的后裔繁衍，多得不可胜数。”",
+      "words": [
+        {
+          "word": "The",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0256",
+          "start": 90940,
+          "end": 91140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "angel",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0257",
+          "start": 91140,
+          "end": 91510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0258",
+          "start": 91510,
+          "end": 91620
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0259",
+          "start": 91620,
+          "end": 91740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0260",
+          "start": 91740,
+          "end": 92110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "also",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0261",
+          "start": 92110,
+          "end": 92450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0262",
+          "start": 92450,
+          "end": 92840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0263",
+          "start": 92840,
+          "end": 92930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0264",
+          "start": 92930,
+          "end": 93300
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0265",
+          "start": 93830,
+          "end": 93950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "will",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0266",
+          "start": 93950,
+          "end": 94110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "so",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0267",
+          "start": 94110,
+          "end": 94460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "greatly",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0268",
+          "start": 94460,
+          "end": 94930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "multiply",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0269",
+          "start": 94930,
+          "end": 95500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0270",
+          "start": 95500,
+          "end": 95740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offspring",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0271",
+          "start": 95740,
+          "end": 96420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0272",
+          "start": 96760,
+          "end": 96910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "they",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0273",
+          "start": 96910,
+          "end": 97030
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "cannot",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0274",
+          "start": 97030,
+          "end": 97530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0275",
+          "start": 97530,
+          "end": 97660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "counted",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0276",
+          "start": 97660,
+          "end": 98180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0277",
+          "start": 98180,
+          "end": 98300
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "multitude",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0278",
+          "start": 98300,
+          "end": 99090
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 11,
+      "text_cn": "上主的使者再对她说：“看，你已怀孕，要生个儿子；要给他起名叫依市玛耳，因为上主俯听了你的苦诉。”",
+      "words": [
+        {
+          "word": "And",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0279",
+          "start": 99550,
+          "end": 99690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0280",
+          "start": 99690,
+          "end": 99790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "angel",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0281",
+          "start": 99790,
+          "end": 100210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0282",
+          "start": 100210,
+          "end": 100340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0283",
+          "start": 100340,
+          "end": 100440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0284",
+          "start": 100440,
+          "end": 100820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0285",
+          "start": 100820,
+          "end": 101120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0286",
+          "start": 101120,
+          "end": 101220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0287",
+          "start": 101220,
+          "end": 101570
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Now",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0288",
+          "start": 101990,
+          "end": 102250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0289",
+          "start": 102250,
+          "end": 102420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0290",
+          "start": 102420,
+          "end": 102680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "conceived",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0291",
+          "start": 102680,
+          "end": 103410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0292",
+          "start": 103570,
+          "end": 103720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0293",
+          "start": 103720,
+          "end": 103900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bear",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0294",
+          "start": 103900,
+          "end": 104230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0295",
+          "start": 104230,
+          "end": 104280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "son",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0296",
+          "start": 104280,
+          "end": 104770
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0297",
+          "start": 105170,
+          "end": 105290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0298",
+          "start": 105290,
+          "end": 105510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "call",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0299",
+          "start": 105510,
+          "end": 105820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0300",
+          "start": 105820,
+          "end": 106070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Ishmael",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0301",
+          "start": 106130,
+          "end": 106800
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0302",
+          "start": 107110,
+          "end": 107260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0303",
+          "start": 107260,
+          "end": 107380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0304",
+          "start": 107380,
+          "end": 107750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "has",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0305",
+          "start": 107750,
+          "end": 107940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "given",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0306",
+          "start": 107940,
+          "end": 108260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heed",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0307",
+          "start": 108260,
+          "end": 108660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0308",
+          "start": 108660,
+          "end": 108760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0309",
+          "start": 108760,
+          "end": 109000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "affliction",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0310",
+          "start": 109000,
+          "end": 109660
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 12,
+      "text_cn": "他将来为人，像头野驴；他要反对众人，众人也要反对他；他要冲着自己的众兄弟支搭帐幕。”",
+      "words": [
+        {
+          "word": "He",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0311",
+          "start": 110630,
+          "end": 110770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0312",
+          "start": 110770,
+          "end": 111000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0313",
+          "start": 111000,
+          "end": 111150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0314",
+          "start": 111150,
+          "end": 111240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wild",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0315",
+          "start": 111240,
+          "end": 111680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ass",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0316",
+          "start": 111680,
+          "end": 111980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0317",
+          "start": 111980,
+          "end": 112100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0318",
+          "start": 112100,
+          "end": 112170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "man",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0319",
+          "start": 112170,
+          "end": 112600
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0320",
+          "start": 112900,
+          "end": 113080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0321",
+          "start": 113080,
+          "end": 113250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0322",
+          "start": 113250,
+          "end": 113620
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "against",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0323",
+          "start": 113620,
+          "end": 114050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "everyone",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0324",
+          "start": 114050,
+          "end": 114640
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0325",
+          "start": 115100,
+          "end": 115280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "everyone",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0326",
+          "start": 115280,
+          "end": 115570
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0327",
+          "start": 115570,
+          "end": 115860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0328",
+          "start": 115860,
+          "end": 116260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "against",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0329",
+          "start": 116260,
+          "end": 116700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0330",
+          "start": 116700,
+          "end": 117040
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0331",
+          "start": 117430,
+          "end": 117600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "he",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0332",
+          "start": 117600,
+          "end": 117780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0333",
+          "start": 117780,
+          "end": 118070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "live",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0334",
+          "start": 118070,
+          "end": 118360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0335",
+          "start": 118360,
+          "end": 118530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "odds",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0336",
+          "start": 118530,
+          "end": 118990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0337",
+          "start": 118990,
+          "end": 119190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0338",
+          "start": 119250,
+          "end": 119470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0339",
+          "start": 119470,
+          "end": 119730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kin",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0340",
+          "start": 119730,
+          "end": 120220
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 13,
+      "text_cn": "哈加尔遂给那对她说话的上主起名叫“你是看顾人的天主”，因为她说：“我不是也看见了那看顾人的天主吗？”",
+      "words": [
+        {
+          "word": "So",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0341",
+          "start": 120700,
+          "end": 120900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0342",
+          "start": 120900,
+          "end": 121080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "named",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0343",
+          "start": 121080,
+          "end": 121500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0344",
+          "start": 121540,
+          "end": 121650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0345",
+          "start": 121650,
+          "end": 122050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "who",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0346",
+          "start": 122050,
+          "end": 122180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "spoke",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0347",
+          "start": 122180,
+          "end": 122570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0348",
+          "start": 122570,
+          "end": 122690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "her",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0349",
+          "start": 122690,
+          "end": 123040
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0350",
+          "start": 123440,
+          "end": 123740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0351",
+          "start": 123740,
+          "end": 123990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "El",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0352",
+          "start": 123990,
+          "end": 124220
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "roi",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0353",
+          "start": 124220,
+          "end": 124730
+        },
+        {
+          "word": "”;",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0354",
+          "start": 124980,
+          "end": 125210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "she",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0355",
+          "start": 125210,
+          "end": 125400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0356",
+          "start": 125400,
+          "end": 125860
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0357",
+          "start": 126340,
+          "end": 126530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0358",
+          "start": 126530,
+          "end": 126610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "really",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0359",
+          "start": 126610,
+          "end": 127040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "seen",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0360",
+          "start": 127040,
+          "end": 127410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "God",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0361",
+          "start": 127410,
+          "end": 127840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0362",
+          "start": 127870,
+          "end": 128010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "remained",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0363",
+          "start": 128010,
+          "end": 128430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "alive",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0364",
+          "start": 128430,
+          "end": 128910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "after",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0365",
+          "start": 128910,
+          "end": 129230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "seeing",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0366",
+          "start": 129230,
+          "end": 129610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0367",
+          "start": 129610,
+          "end": 129960
+        },
+        {
+          "word": "?",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 14,
+      "text_cn": "为此她给那井起名叫拉海洛依井。这井是在卡德士与贝勒得之间。",
+      "words": [
+        {
+          "word": "Therefore",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0368",
+          "start": 130400,
+          "end": 131010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0369",
+          "start": 131010,
+          "end": 131150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "well",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0370",
+          "start": 131150,
+          "end": 131480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0371",
+          "start": 131480,
+          "end": 131680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "called",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0372",
+          "start": 131680,
+          "end": 132200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Beer",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0373",
+          "start": 132460,
+          "end": 132790
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lahai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0374",
+          "start": 132790,
+          "end": 133440
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "roi",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0375",
+          "start": 133440,
+          "end": 134010
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0376",
+          "start": 134420,
+          "end": 134560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lies",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0377",
+          "start": 134560,
+          "end": 134900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "between",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0378",
+          "start": 134900,
+          "end": 135360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Kadesh",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0379",
+          "start": 135360,
+          "end": 135950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0380",
+          "start": 136050,
+          "end": 136250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Bered",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0381",
+          "start": 136250,
+          "end": 136740
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 15,
+      "text_cn": "哈加尔给亚巴郎生了一个儿子，亚巴郎给哈加尔所生的儿子，起名叫依市玛耳。",
+      "words": [
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0382",
+          "start": 137320,
+          "end": 137710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bore",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0383",
+          "start": 137710,
+          "end": 138070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0384",
+          "start": 138120,
+          "end": 138570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0385",
+          "start": 138570,
+          "end": 138630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "son",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0386",
+          "start": 138630,
+          "end": 139120
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0387",
+          "start": 139370,
+          "end": 139580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0388",
+          "start": 139580,
+          "end": 140010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "named",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0389",
+          "start": 140010,
+          "end": 140340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0390",
+          "start": 140340,
+          "end": 140510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "son",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0391",
+          "start": 140510,
+          "end": 140990
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "whom",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0392",
+          "start": 141180,
+          "end": 141410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0393",
+          "start": 141410,
+          "end": 141820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bore",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0394",
+          "start": 141820,
+          "end": 142340
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Ishmael",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0395",
+          "start": 142570,
+          "end": 143230
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 16,
+      "text_cn": "哈加尔给亚巴郎生依市玛耳时，亚巴郎已八十六岁。",
+      "words": [
+        {
+          "word": "Abram",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0396",
+          "start": 144170,
+          "end": 144560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0397",
+          "start": 144560,
+          "end": 144760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "eighty",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0398",
+          "start": 144830,
+          "end": 145060
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "six",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0399",
+          "start": 145060,
+          "end": 145440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "years",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0400",
+          "start": 145440,
+          "end": 145700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "old",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0401",
+          "start": 145700,
+          "end": 146050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "when",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0402",
+          "start": 146050,
+          "end": 146260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hagar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0403",
+          "start": 146260,
+          "end": 146690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bore",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0404",
+          "start": 146690,
+          "end": 147010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0405",
+          "start": 147010,
+          "end": 147260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Ishmael",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "01_Gen_016__0406",
+          "start": 147290,
+          "end": 147930
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ]
+}

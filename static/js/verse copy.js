@@ -16,7 +16,7 @@ function loadVerses() {
 
     container.innerHTML = "<p>加载中...</p>";
 
-    // ✅ 非 Genesis 书卷，继续走数据库判断
+    // ✅ 恢复 has_tokens 判断，保证其他章节和后续扩展的稳定性
     fetch(`/has_tokens/${bookId}/${chapter}`)
         .then(res => res.json())
         .then(flag => {
@@ -39,11 +39,9 @@ function loadTokenVerses(bookId, chapter, container) {
 
     container.innerHTML = '<div class="loading">正在加载经文...</div>';
 
-    // ✅ 只要 bookId 是 1（Genesis），就直接读静态 JSON
     let url;
-    if (bookId === 1) {
-        const ch = String(chapter).padStart(3, "0");
-        url = `/static/json/01_Gen_${ch}.json`;
+    if (bookId === 1 && chapter === 1) {
+        url = "/static/json/01_Gen_001.json";
     } else {
         url = `/verses_with_words/${bookId}/${chapter}`;
     }
@@ -60,7 +58,7 @@ function loadTokenVerses(bookId, chapter, container) {
         .then(data => {
             console.log("✅ 原始 JSON：", data);
 
-            // ✅ 安全取值（兼容对象和数组结构）
+            // ✅ 安全取值（防止空数组 / undefined）
             const verses = Array.isArray(data)
                 ? data
                 : (Array.isArray(data.verses) ? data.verses : []);
