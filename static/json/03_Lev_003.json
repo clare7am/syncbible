@@ -1,0 +1,8027 @@
+{
+  "has_tokens": true,
+  "verses": [
+    {
+      "verse": 1,
+      "text_cn": "若有人奉献和平祭，如所献的是牛，应在上主面前献一头无瑕的公牛或母牛，",
+      "words": [
+        {
+          "word": "If",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0001",
+          "start": 130,
+          "end": 310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0002",
+          "start": 310,
+          "end": 450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0003",
+          "start": 450,
+          "end": 960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0004",
+          "start": 960,
+          "end": 1160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0005",
+          "start": 1160,
+          "end": 1220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sacrifice",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0006",
+          "start": 1220,
+          "end": 2010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0007",
+          "start": 2010,
+          "end": 2150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "well",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0008",
+          "start": 2150,
+          "end": 2400
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "being",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0009",
+          "start": 2400,
+          "end": 2910
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "if",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0010",
+          "start": 3270,
+          "end": 3460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0011",
+          "start": 3460,
+          "end": 3650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offer",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0012",
+          "start": 3650,
+          "end": 4070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0013",
+          "start": 4070,
+          "end": 4200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "animal",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0014",
+          "start": 4200,
+          "end": 4720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0015",
+          "start": 4720,
+          "end": 4840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0016",
+          "start": 4840,
+          "end": 4940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "herd",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0017",
+          "start": 4940,
+          "end": 5390
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "whether",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0018",
+          "start": 5700,
+          "end": 6000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "male",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0019",
+          "start": 6000,
+          "end": 6440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0020",
+          "start": 6470,
+          "end": 6580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "female",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0021",
+          "start": 6580,
+          "end": 7240
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0022",
+          "start": 7580,
+          "end": 7700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0023",
+          "start": 7700,
+          "end": 7940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offer",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0024",
+          "start": 7940,
+          "end": 8360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "one",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0025",
+          "start": 8360,
+          "end": 8700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "without",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0026",
+          "start": 8700,
+          "end": 9140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "blemish",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0027",
+          "start": 9140,
+          "end": 9580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "before",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0028",
+          "start": 9580,
+          "end": 10010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0029",
+          "start": 10010,
+          "end": 10150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0030",
+          "start": 10150,
+          "end": 10590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 2,
+      "text_cn": "先按手在牺牲头上，后在会幕门口宰了；亚郎的儿子司祭们，将血洒在祭坛四周。",
+      "words": [
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0031",
+          "start": 11450,
+          "end": 11620
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0032",
+          "start": 11620,
+          "end": 11860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lay",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0033",
+          "start": 11860,
+          "end": 12050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0034",
+          "start": 12050,
+          "end": 12240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0035",
+          "start": 12240,
+          "end": 12650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0036",
+          "start": 12650,
+          "end": 12780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0037",
+          "start": 12780,
+          "end": 12870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "head",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0038",
+          "start": 12870,
+          "end": 13100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0039",
+          "start": 13100,
+          "end": 13230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0040",
+          "start": 13230,
+          "end": 13380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0041",
+          "start": 13380,
+          "end": 13970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0042",
+          "start": 14310,
+          "end": 14460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slaughter",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0043",
+          "start": 14460,
+          "end": 15000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0044",
+          "start": 15000,
+          "end": 15140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0045",
+          "start": 15180,
+          "end": 15320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0046",
+          "start": 15320,
+          "end": 15480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrance",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0047",
+          "start": 15480,
+          "end": 15990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0048",
+          "start": 15990,
+          "end": 16120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0049",
+          "start": 16120,
+          "end": 16200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tent",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0050",
+          "start": 16200,
+          "end": 16560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0051",
+          "start": 16560,
+          "end": 16690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "meeting",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0052",
+          "start": 16690,
+          "end": 17110
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0053",
+          "start": 17550,
+          "end": 17800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Aaron",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0054",
+          "start": 17900,
+          "end": 18135
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0055",
+          "start": 18135,
+          "end": 18370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sons",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0056",
+          "start": 18370,
+          "end": 19060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0057",
+          "start": 19220,
+          "end": 19360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "priests",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0058",
+          "start": 19360,
+          "end": 20020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0059",
+          "start": 20020,
+          "end": 20230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dash",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0060",
+          "start": 20230,
+          "end": 20690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0061",
+          "start": 20690,
+          "end": 20830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "blood",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0062",
+          "start": 20830,
+          "end": 21180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "against",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0063",
+          "start": 21180,
+          "end": 21650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0064",
+          "start": 21700,
+          "end": 21950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sides",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0065",
+          "start": 21950,
+          "end": 22500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0066",
+          "start": 22500,
+          "end": 22650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0067",
+          "start": 22650,
+          "end": 22790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0068",
+          "start": 22790,
+          "end": 23320
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 3,
+      "text_cn": "由和平祭牺牲中，应取出献与上主作火祭的是：遮盖内脏的脂肪，和贴在内脏上所有的脂肪，",
+      "words": [
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0069",
+          "start": 24230,
+          "end": 24380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0070",
+          "start": 24380,
+          "end": 24700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offer",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0071",
+          "start": 24740,
+          "end": 25120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0072",
+          "start": 25120,
+          "end": 25360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0073",
+          "start": 25360,
+          "end": 25450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sacrifice",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0074",
+          "start": 25450,
+          "end": 26260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0075",
+          "start": 26260,
+          "end": 26400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "well",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0076",
+          "start": 26400,
+          "end": 26630
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "being",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0077",
+          "start": 26630,
+          "end": 27160
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0078",
+          "start": 27640,
+          "end": 27800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0079",
+          "start": 27800,
+          "end": 27910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0080",
+          "start": 27990,
+          "end": 28510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0081",
+          "start": 28510,
+          "end": 28680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0082",
+          "start": 28680,
+          "end": 29210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0083",
+          "start": 29210,
+          "end": 29380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0084",
+          "start": 29380,
+          "end": 29540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0085",
+          "start": 29540,
+          "end": 30040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0086",
+          "start": 30540,
+          "end": 30660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0087",
+          "start": 30660,
+          "end": 31000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0088",
+          "start": 31030,
+          "end": 31230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "covers",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0089",
+          "start": 31230,
+          "end": 31660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0090",
+          "start": 31660,
+          "end": 31860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrails",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0091",
+          "start": 31860,
+          "end": 32610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0092",
+          "start": 32730,
+          "end": 32910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0093",
+          "start": 32980,
+          "end": 33200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0094",
+          "start": 33200,
+          "end": 33320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0095",
+          "start": 33320,
+          "end": 33710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0096",
+          "start": 33740,
+          "end": 33910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0097",
+          "start": 33910,
+          "end": 34060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "around",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0098",
+          "start": 34060,
+          "end": 34480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0099",
+          "start": 34480,
+          "end": 34660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrails",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0100",
+          "start": 34660,
+          "end": 35350
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 4,
+      "text_cn": "左右两肾和两肾靠腰部的脂肪，以及同两肾一起取出的肝叶。",
+      "words": [
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0101",
+          "start": 35710,
+          "end": 35840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "two",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0102",
+          "start": 35840,
+          "end": 36090
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kidneys",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0103",
+          "start": 36090,
+          "end": 36720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0104",
+          "start": 36720,
+          "end": 36910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0105",
+          "start": 36910,
+          "end": 36990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0106",
+          "start": 36990,
+          "end": 37430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0107",
+          "start": 37430,
+          "end": 37590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0108",
+          "start": 37590,
+          "end": 37740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0109",
+          "start": 37740,
+          "end": 37970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0110",
+          "start": 37970,
+          "end": 38160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0111",
+          "start": 38160,
+          "end": 38280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0112",
+          "start": 38280,
+          "end": 38370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "loins",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0113",
+          "start": 38370,
+          "end": 39020
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0114",
+          "start": 39260,
+          "end": 39430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0115",
+          "start": 39430,
+          "end": 39540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "appendage",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0116",
+          "start": 39540,
+          "end": 40140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0117",
+          "start": 40140,
+          "end": 40290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0118",
+          "start": 40290,
+          "end": 40400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "liver",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0119",
+          "start": 40400,
+          "end": 40860
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "which",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0120",
+          "start": 41210,
+          "end": 41450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "he",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0121",
+          "start": 41450,
+          "end": 41560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0122",
+          "start": 41560,
+          "end": 41810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "remove",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0123",
+          "start": 41810,
+          "end": 42370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0124",
+          "start": 42370,
+          "end": 42530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0125",
+          "start": 42530,
+          "end": 42640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kidneys",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0126",
+          "start": 42640,
+          "end": 43350
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 5,
+      "text_cn": "亚郎的儿子们应将这一切放在祭坛上的柴火上，同全燔祭牺牲一起焚烧，作为中悦上主的馨香火祭。",
+      "words": [
+        {
+          "word": "Then",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0127",
+          "start": 43970,
+          "end": 44330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Aaron",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0128",
+          "start": 44380,
+          "end": 44570
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0129",
+          "start": 44570,
+          "end": 44760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sons",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0130",
+          "start": 44760,
+          "end": 45170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0131",
+          "start": 45170,
+          "end": 45430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "turn",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0132",
+          "start": 45430,
+          "end": 45800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "these",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0133",
+          "start": 45800,
+          "end": 46110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "into",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0134",
+          "start": 46110,
+          "end": 46400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "smoke",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0135",
+          "start": 46400,
+          "end": 46870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0136",
+          "start": 46870,
+          "end": 46980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0137",
+          "start": 46980,
+          "end": 47110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0138",
+          "start": 47110,
+          "end": 47650
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0139",
+          "start": 48020,
+          "end": 48180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0140",
+          "start": 48180,
+          "end": 48280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "burnt",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0141",
+          "start": 48280,
+          "end": 48600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0142",
+          "start": 48630,
+          "end": 49240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0143",
+          "start": 49240,
+          "end": 49410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0144",
+          "start": 49410,
+          "end": 49560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0145",
+          "start": 49560,
+          "end": 49730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0146",
+          "start": 49730,
+          "end": 49820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wood",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0147",
+          "start": 49820,
+          "end": 50190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0148",
+          "start": 50190,
+          "end": 50340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0149",
+          "start": 50340,
+          "end": 50430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0150",
+          "start": 50430,
+          "end": 50960
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0151",
+          "start": 51410,
+          "end": 51580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0152",
+          "start": 51580,
+          "end": 51700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0153",
+          "start": 51700,
+          "end": 52230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0154",
+          "start": 52230,
+          "end": 52420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0155",
+          "start": 52420,
+          "end": 52990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0156",
+          "start": 52990,
+          "end": 53150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "pleasing",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0157",
+          "start": 53150,
+          "end": 53620
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "odor",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0158",
+          "start": 53620,
+          "end": 54010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0159",
+          "start": 54010,
+          "end": 54210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0160",
+          "start": 54210,
+          "end": 54340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0161",
+          "start": 54340,
+          "end": 54780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 6,
+      "text_cn": "若有人给上主奉献一只羊作和平祭牺牲，应奉献一只无瑕的公羊或母羊。",
+      "words": [
+        {
+          "word": "If",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0162",
+          "start": 55150,
+          "end": 55350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0163",
+          "start": 55350,
+          "end": 55490
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0164",
+          "start": 55530,
+          "end": 56060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0165",
+          "start": 56060,
+          "end": 56280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0166",
+          "start": 56280,
+          "end": 56340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sacrifice",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0167",
+          "start": 56340,
+          "end": 57130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0168",
+          "start": 57130,
+          "end": 57270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "well",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0169",
+          "start": 57270,
+          "end": 57520
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "being",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0170",
+          "start": 57520,
+          "end": 57870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0171",
+          "start": 57870,
+          "end": 58020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0172",
+          "start": 58020,
+          "end": 58170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0173",
+          "start": 58170,
+          "end": 58570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0174",
+          "start": 58570,
+          "end": 58710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0175",
+          "start": 58710,
+          "end": 58990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0176",
+          "start": 58990,
+          "end": 59070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "flock",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0177",
+          "start": 59070,
+          "end": 59620
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "male",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0178",
+          "start": 59920,
+          "end": 60370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0179",
+          "start": 60400,
+          "end": 60580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "female",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0180",
+          "start": 60580,
+          "end": 61200
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0181",
+          "start": 61500,
+          "end": 61650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0182",
+          "start": 61650,
+          "end": 61930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offer",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0183",
+          "start": 61960,
+          "end": 62340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "one",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0184",
+          "start": 62340,
+          "end": 62690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "without",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0185",
+          "start": 62690,
+          "end": 63120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "blemish",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0186",
+          "start": 63120,
+          "end": 63690
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 7,
+      "text_cn": "如果奉献一只绵羊作牺牲，应将它牵到上主面前，",
+      "words": [
+        {
+          "word": "If",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0187",
+          "start": 64080,
+          "end": 64250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0188",
+          "start": 64250,
+          "end": 64380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "present",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0189",
+          "start": 64380,
+          "end": 64900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0190",
+          "start": 64900,
+          "end": 64950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sheep",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0191",
+          "start": 64950,
+          "end": 65360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0192",
+          "start": 65360,
+          "end": 65510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0193",
+          "start": 65510,
+          "end": 65720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0194",
+          "start": 65720,
+          "end": 66340
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0195",
+          "start": 66690,
+          "end": 66820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0196",
+          "start": 66820,
+          "end": 67010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bring",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0197",
+          "start": 67010,
+          "end": 67310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0198",
+          "start": 67310,
+          "end": 67450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "before",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0199",
+          "start": 67450,
+          "end": 67810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0200",
+          "start": 67810,
+          "end": 67950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0201",
+          "start": 67950,
+          "end": 68370
+        }
+      ]
+    },
+    {
+      "verse": 8,
+      "text_cn": "先按手在牺牲头上，后在会幕前宰了；亚郎的儿子将血洒在祭坛四周。",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0202",
+          "start": 68740,
+          "end": 68930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lay",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0203",
+          "start": 68930,
+          "end": 69110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0204",
+          "start": 69110,
+          "end": 69350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0205",
+          "start": 69350,
+          "end": 69870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0206",
+          "start": 69870,
+          "end": 70010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0207",
+          "start": 70010,
+          "end": 70080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "head",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0208",
+          "start": 70080,
+          "end": 70440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0209",
+          "start": 70440,
+          "end": 70550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0210",
+          "start": 70550,
+          "end": 70700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0211",
+          "start": 70700,
+          "end": 71310
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "It",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0212",
+          "start": 71820,
+          "end": 71950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0213",
+          "start": 71950,
+          "end": 72180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0214",
+          "start": 72180,
+          "end": 72310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slaughtered",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0215",
+          "start": 72310,
+          "end": 72850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "before",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0216",
+          "start": 72850,
+          "end": 73200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0217",
+          "start": 73200,
+          "end": 73320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tent",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0218",
+          "start": 73320,
+          "end": 73670
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0219",
+          "start": 73670,
+          "end": 73790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "meeting",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0220",
+          "start": 73790,
+          "end": 74280
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0221",
+          "start": 74610,
+          "end": 74780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Aaron",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0222",
+          "start": 74780,
+          "end": 74980
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0223",
+          "start": 74980,
+          "end": 75180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sons",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0224",
+          "start": 75180,
+          "end": 75680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0225",
+          "start": 75680,
+          "end": 75940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dash",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0226",
+          "start": 75940,
+          "end": 76340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0227",
+          "start": 76340,
+          "end": 76520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "blood",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0228",
+          "start": 76520,
+          "end": 76940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "against",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0229",
+          "start": 76940,
+          "end": 77340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0230",
+          "start": 77340,
+          "end": 77510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sides",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0231",
+          "start": 77510,
+          "end": 78060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0232",
+          "start": 78060,
+          "end": 78180
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0233",
+          "start": 78180,
+          "end": 78330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0234",
+          "start": 78330,
+          "end": 78780
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 9,
+      "text_cn": "那人由和平祭牺牲中应取出脂肪作献与上主的火祭：即靠脊骨割下的整个肥尾，遮盖内脏的脂肪，贴在内脏上所有的脂肪，",
+      "words": [
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0235",
+          "start": 79140,
+          "end": 79270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0236",
+          "start": 79270,
+          "end": 79500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "present",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0237",
+          "start": 79500,
+          "end": 80020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0238",
+          "start": 80020,
+          "end": 80200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0239",
+          "start": 80200,
+          "end": 80600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0240",
+          "start": 80600,
+          "end": 80830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0241",
+          "start": 80830,
+          "end": 80910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sacrifice",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0242",
+          "start": 80910,
+          "end": 81680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0243",
+          "start": 81680,
+          "end": 81790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "well",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0244",
+          "start": 81790,
+          "end": 82030
+        },
+        {
+          "word": "-",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "being",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0245",
+          "start": 82030,
+          "end": 82490
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0246",
+          "start": 82840,
+          "end": 82980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0247",
+          "start": 82980,
+          "end": 83090
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0248",
+          "start": 83090,
+          "end": 83600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0249",
+          "start": 83600,
+          "end": 83770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0250",
+          "start": 83770,
+          "end": 84250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0251",
+          "start": 84250,
+          "end": 84410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0252",
+          "start": 84410,
+          "end": 84550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0253",
+          "start": 84550,
+          "end": 85010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0254",
+          "start": 85460,
+          "end": 85560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "whole",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0255",
+          "start": 85560,
+          "end": 85880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "broad",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0256",
+          "start": 85880,
+          "end": 86330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tail",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0257",
+          "start": 86330,
+          "end": 86870
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "which",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0258",
+          "start": 87130,
+          "end": 87310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0259",
+          "start": 87310,
+          "end": 87510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0260",
+          "start": 87510,
+          "end": 87660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "removed",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0261",
+          "start": 87660,
+          "end": 88370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "close",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0262",
+          "start": 88370,
+          "end": 88740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0263",
+          "start": 88740,
+          "end": 88890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0264",
+          "start": 88890,
+          "end": 88990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "backbone",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0265",
+          "start": 88990,
+          "end": 89680
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0266",
+          "start": 90140,
+          "end": 90240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0267",
+          "start": 90240,
+          "end": 90590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0268",
+          "start": 90590,
+          "end": 90680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "covers",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0269",
+          "start": 90680,
+          "end": 91120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0270",
+          "start": 91120,
+          "end": 91330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrails",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0271",
+          "start": 91330,
+          "end": 92060
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0272",
+          "start": 92420,
+          "end": 92580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0273",
+          "start": 92580,
+          "end": 92760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0274",
+          "start": 92760,
+          "end": 92850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0275",
+          "start": 92850,
+          "end": 93260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0276",
+          "start": 93260,
+          "end": 93420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0277",
+          "start": 93420,
+          "end": 93560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "around",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0278",
+          "start": 93560,
+          "end": 93980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0279",
+          "start": 93980,
+          "end": 94160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrails",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0280",
+          "start": 94160,
+          "end": 94880
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 10,
+      "text_cn": "左右两肾和两肾上靠腰部的脂肪，以及同两肾一起取出的肝叶。",
+      "words": [
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0281",
+          "start": 95170,
+          "end": 95280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "two",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0282",
+          "start": 95280,
+          "end": 95560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kidneys",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0283",
+          "start": 95560,
+          "end": 96320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0284",
+          "start": 96410,
+          "end": 96550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0285",
+          "start": 96550,
+          "end": 96640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0286",
+          "start": 96640,
+          "end": 97020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0287",
+          "start": 97050,
+          "end": 97210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0288",
+          "start": 97210,
+          "end": 97360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0289",
+          "start": 97360,
+          "end": 97600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0290",
+          "start": 97600,
+          "end": 97780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0291",
+          "start": 97780,
+          "end": 97920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0292",
+          "start": 97920,
+          "end": 98040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "loins",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0293",
+          "start": 98040,
+          "end": 98670
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0294",
+          "start": 98970,
+          "end": 99140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0295",
+          "start": 99140,
+          "end": 99230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "appendage",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0296",
+          "start": 99230,
+          "end": 99830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0297",
+          "start": 99830,
+          "end": 99970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0298",
+          "start": 99970,
+          "end": 100090
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "liver",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0299",
+          "start": 100090,
+          "end": 100570
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "which",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0300",
+          "start": 100860,
+          "end": 101110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0301",
+          "start": 101110,
+          "end": 101200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0302",
+          "start": 101200,
+          "end": 101470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "remove",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0303",
+          "start": 101470,
+          "end": 102050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0304",
+          "start": 102050,
+          "end": 102200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0305",
+          "start": 102200,
+          "end": 102280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kidneys",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0306",
+          "start": 102280,
+          "end": 102920
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 11,
+      "text_cn": "司祭应将这一切放在祭坛上焚烧，有如食物，作为献与上主的火祭。",
+      "words": [
+        {
+          "word": "Then",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0307",
+          "start": 103830,
+          "end": 104070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0308",
+          "start": 104070,
+          "end": 104160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "priest",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0309",
+          "start": 104160,
+          "end": 104520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0310",
+          "start": 104520,
+          "end": 104780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "turn",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0311",
+          "start": 104780,
+          "end": 105160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "these",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0312",
+          "start": 105160,
+          "end": 105510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "into",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0313",
+          "start": 105510,
+          "end": 105810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "smoke",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0314",
+          "start": 105810,
+          "end": 106320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0315",
+          "start": 106320,
+          "end": 106460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0316",
+          "start": 106460,
+          "end": 106580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0317",
+          "start": 106580,
+          "end": 107130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0318",
+          "start": 107340,
+          "end": 107510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0319",
+          "start": 107510,
+          "end": 107560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "food",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0320",
+          "start": 107560,
+          "end": 107880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0321",
+          "start": 107880,
+          "end": 108360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0322",
+          "start": 108360,
+          "end": 108520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0323",
+          "start": 108520,
+          "end": 109000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0324",
+          "start": 109000,
+          "end": 109200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0325",
+          "start": 109200,
+          "end": 109340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0326",
+          "start": 109340,
+          "end": 109760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 12,
+      "text_cn": "如果奉献的祭品是一只山羊，应将它牵到上主前，",
+      "words": [
+        {
+          "word": "If",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0327",
+          "start": 110070,
+          "end": 110250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0328",
+          "start": 110250,
+          "end": 110420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0329",
+          "start": 110450,
+          "end": 110980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0330",
+          "start": 110980,
+          "end": 111150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0331",
+          "start": 111150,
+          "end": 111210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "goat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0332",
+          "start": 111210,
+          "end": 111640
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0333",
+          "start": 111990,
+          "end": 112080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0334",
+          "start": 112080,
+          "end": 112280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bring",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0335",
+          "start": 112280,
+          "end": 112600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0336",
+          "start": 112600,
+          "end": 112750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "before",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0337",
+          "start": 112750,
+          "end": 113130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0338",
+          "start": 113130,
+          "end": 113270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0339",
+          "start": 113270,
+          "end": 113760
+        }
+      ]
+    },
+    {
+      "verse": 13,
+      "text_cn": "先按手在牺牲头上，后在会幕前宰了；亚郎的儿子们将血洒在祭坛四周。",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0340",
+          "start": 114500,
+          "end": 114660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lay",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0341",
+          "start": 114660,
+          "end": 114860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0342",
+          "start": 114860,
+          "end": 115000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "hand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0343",
+          "start": 115000,
+          "end": 115380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0344",
+          "start": 115380,
+          "end": 115550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0345",
+          "start": 115550,
+          "end": 115720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "head",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0346",
+          "start": 115720,
+          "end": 116130
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0347",
+          "start": 116750,
+          "end": 116870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0348",
+          "start": 116870,
+          "end": 117050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0349",
+          "start": 117050,
+          "end": 117200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "slaughtered",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0350",
+          "start": 117200,
+          "end": 117820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "before",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0351",
+          "start": 117820,
+          "end": 118150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0352",
+          "start": 118150,
+          "end": 118260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tent",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0353",
+          "start": 118260,
+          "end": 118610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0354",
+          "start": 118610,
+          "end": 118720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "meeting",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0355",
+          "start": 118720,
+          "end": 119200
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0356",
+          "start": 119620,
+          "end": 119760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0357",
+          "start": 119760,
+          "end": 119820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sons",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0358",
+          "start": 119820,
+          "end": 120150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0359",
+          "start": 120150,
+          "end": 120270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Aaron",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0360",
+          "start": 120330,
+          "end": 120680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0361",
+          "start": 120680,
+          "end": 120910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "dash",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0362",
+          "start": 120910,
+          "end": 121360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0363",
+          "start": 121360,
+          "end": 121500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "blood",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0364",
+          "start": 121500,
+          "end": 121920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "against",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0365",
+          "start": 121920,
+          "end": 122310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0366",
+          "start": 122310,
+          "end": 122480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sides",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0367",
+          "start": 122480,
+          "end": 123030
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0368",
+          "start": 123030,
+          "end": 123130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0369",
+          "start": 123130,
+          "end": 123290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0370",
+          "start": 123290,
+          "end": 123730
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 14,
+      "text_cn": "那人由这牺牲中应取出献与上主作火祭的是：遮盖内脏的脂肪，贴在内脏上所有的脂肪，",
+      "words": [
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0371",
+          "start": 124120,
+          "end": 124270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0372",
+          "start": 124270,
+          "end": 124480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "present",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0373",
+          "start": 124480,
+          "end": 125060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0374",
+          "start": 125060,
+          "end": 125210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0375",
+          "start": 125210,
+          "end": 125390
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0376",
+          "start": 125420,
+          "end": 125850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0377",
+          "start": 125850,
+          "end": 126150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0378",
+          "start": 126150,
+          "end": 126340
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0379",
+          "start": 126730,
+          "end": 126900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "an",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0380",
+          "start": 126900,
+          "end": 127010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0381",
+          "start": 127010,
+          "end": 127570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0382",
+          "start": 127570,
+          "end": 127720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0383",
+          "start": 127720,
+          "end": 128190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0384",
+          "start": 128190,
+          "end": 128360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0385",
+          "start": 128360,
+          "end": 128490
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0386",
+          "start": 128490,
+          "end": 128960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0387",
+          "start": 129170,
+          "end": 129270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0388",
+          "start": 129270,
+          "end": 129600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0389",
+          "start": 129630,
+          "end": 129840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "covers",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0390",
+          "start": 129840,
+          "end": 130240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0391",
+          "start": 130240,
+          "end": 130440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrails",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0392",
+          "start": 130440,
+          "end": 131070
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0393",
+          "start": 131440,
+          "end": 131590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0394",
+          "start": 131590,
+          "end": 131870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0395",
+          "start": 131870,
+          "end": 131980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0396",
+          "start": 131980,
+          "end": 132340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0397",
+          "start": 132400,
+          "end": 132570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0398",
+          "start": 132570,
+          "end": 132710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "around",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0399",
+          "start": 132710,
+          "end": 133080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0400",
+          "start": 133080,
+          "end": 133250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "entrails",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0401",
+          "start": 133250,
+          "end": 133900
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 15,
+      "text_cn": "左右两肾和两肾上靠腰部的脂肪，以及同两肾一起取出的肝叶。",
+      "words": [
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0402",
+          "start": 134770,
+          "end": 134880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "two",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0403",
+          "start": 134880,
+          "end": 135120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kidneys",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0404",
+          "start": 135120,
+          "end": 135810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0405",
+          "start": 135960,
+          "end": 136130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0406",
+          "start": 136130,
+          "end": 136210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0407",
+          "start": 136210,
+          "end": 136580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0408",
+          "start": 136580,
+          "end": 136730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0409",
+          "start": 136730,
+          "end": 136880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0410",
+          "start": 136880,
+          "end": 137140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "them",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0411",
+          "start": 137140,
+          "end": 137310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "at",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0412",
+          "start": 137310,
+          "end": 137430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0413",
+          "start": 137430,
+          "end": 137510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "loins",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0414",
+          "start": 137510,
+          "end": 138080
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0415",
+          "start": 138480,
+          "end": 138630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0416",
+          "start": 138630,
+          "end": 138720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "appendage",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0417",
+          "start": 138720,
+          "end": 139310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0418",
+          "start": 139310,
+          "end": 139440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0419",
+          "start": 139440,
+          "end": 139550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "liver",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0420",
+          "start": 139550,
+          "end": 139980
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "which",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0421",
+          "start": 140320,
+          "end": 140530
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0422",
+          "start": 140530,
+          "end": 140640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0423",
+          "start": 140640,
+          "end": 140880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "remove",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0424",
+          "start": 140880,
+          "end": 141470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0425",
+          "start": 141470,
+          "end": 141610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0426",
+          "start": 141610,
+          "end": 141710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kidneys",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0427",
+          "start": 141710,
+          "end": 142270
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 16,
+      "text_cn": "司祭应将这一切放在祭坛上焚烧，有如食物，作为中悦上主的馨香火祭。",
+      "words": [
+        {
+          "word": "Then",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0428",
+          "start": 142660,
+          "end": 142920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0429",
+          "start": 142920,
+          "end": 143000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "priest",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0430",
+          "start": 143000,
+          "end": 143540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0431",
+          "start": 143540,
+          "end": 143780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "turn",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0432",
+          "start": 143780,
+          "end": 144150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "these",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0433",
+          "start": 144150,
+          "end": 144380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "into",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0434",
+          "start": 144380,
+          "end": 144600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "smoke",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0435",
+          "start": 144600,
+          "end": 145060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0436",
+          "start": 145060,
+          "end": 145200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0437",
+          "start": 145200,
+          "end": 145310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0438",
+          "start": 145310,
+          "end": 145870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0439",
+          "start": 146050,
+          "end": 146220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0440",
+          "start": 146220,
+          "end": 146280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "food",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0441",
+          "start": 146280,
+          "end": 146630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0442",
+          "start": 146630,
+          "end": 147130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0443",
+          "start": 147130,
+          "end": 147300
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fire",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0444",
+          "start": 147300,
+          "end": 147800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0445",
+          "start": 147800,
+          "end": 148050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0446",
+          "start": 148050,
+          "end": 148110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "pleasing",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0447",
+          "start": 148110,
+          "end": 148700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "odor",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0448",
+          "start": 148740,
+          "end": 149140
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "All",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0449",
+          "start": 149720,
+          "end": 149910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0450",
+          "start": 149910,
+          "end": 150400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0451",
+          "start": 150460,
+          "end": 150620
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0452",
+          "start": 150620,
+          "end": 150760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0453",
+          "start": 150760,
+          "end": 151015
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "’",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "s",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0454",
+          "start": 151015,
+          "end": 151270
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 17,
+      "text_cn": "一切脂肪应归于上主。凡是脂肪和血，你们都不可吃：这为你们世世代代，在你们任何所居之地，是一条永久的法令”。",
+      "words": [
+        {
+          "word": "It",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0455",
+          "start": 152120,
+          "end": 152250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0456",
+          "start": 152250,
+          "end": 152430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0457",
+          "start": 152430,
+          "end": 152630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0458",
+          "start": 152630,
+          "end": 152690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "perpetual",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0459",
+          "start": 152690,
+          "end": 153330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "statute",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0460",
+          "start": 153330,
+          "end": 154000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "throughout",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0461",
+          "start": 154000,
+          "end": 154410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0462",
+          "start": 154410,
+          "end": 154540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "generations",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0463",
+          "start": 154540,
+          "end": 155460
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0464",
+          "start": 155950,
+          "end": 156070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0465",
+          "start": 156070,
+          "end": 156270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0466",
+          "start": 156270,
+          "end": 156420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "settlements",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0467",
+          "start": 156420,
+          "end": 157180
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0468",
+          "start": 157590,
+          "end": 157710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "must",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0469",
+          "start": 157710,
+          "end": 158010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "not",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0470",
+          "start": 158010,
+          "end": 158230
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "eat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0471",
+          "start": 158260,
+          "end": 158480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "any",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0472",
+          "start": 158520,
+          "end": 158750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0473",
+          "start": 158750,
+          "end": 159150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "or",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0474",
+          "start": 159300,
+          "end": 159450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "any",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0475",
+          "start": 159480,
+          "end": 159700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "blood",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "03_Lev_003__0476",
+          "start": 159700,
+          "end": 160170
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ]
+}
