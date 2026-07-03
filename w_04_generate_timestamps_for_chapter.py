@@ -72,10 +72,26 @@ def parse_textgrid(book_id: int, book_abbr: str, chapter: int):
     return interval_pattern.findall(m.group(1))
 
 
-def split_word(word: str):
-    if word.endswith("'s"):
-        return [word[:-2], "s"]
-    return [word]
+def split_word(text: str):
+    """
+    拆分文本：
+    1. 先按空格分词
+    2. 再将包含单引号的词进一步拆分
+    例如：
+        brother's days'journey
+        → ["brother", "s", "days", "journey"]
+    """
+    final_words = []
+
+    raw_words = text.split()
+    for w in raw_words:
+        if "'" in w:
+            parts = [p for p in w.split("'") if p]
+            final_words.extend(parts)
+        else:
+            final_words.append(w)
+
+    return final_words
 
 
 def fill_timestamps(book_id: int, book_abbr: str, chapter: int, matches):
@@ -125,7 +141,6 @@ def check_and_rollback(book_id: int, book_abbr: str, chapter: int, backup_path: 
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
-    # ✅ 前缀格式：02_Ex_001
     id_prefix = f"{book_id:02d}_{book_abbr}_{chapter:03d}"
 
     cursor.execute(
@@ -150,7 +165,6 @@ def check_and_rollback(book_id: int, book_abbr: str, chapter: int, backup_path: 
         conn.close()
         return
 
-    # 有不一致
     print(f"\n❌ 发现 {len(mismatches)} 处不一致：")
     for r in mismatches[:5]:
         print(f"  {r[0]:30s} | timestamps.word={r[1]} | tokens.token={r[2]}")
@@ -182,14 +196,7 @@ if __name__ == "__main__":
 
     print(f"📖 处理：{book_abbr} {chapter}")
 
-    # Step 1：备份
     backup_path = backup_database()
-
-    # Step 2：解析 TextGrid
     matches = parse_textgrid(book_id, book_abbr, chapter)
-
-    # Step 3：填充 timestamps
     fill_timestamps(book_id, book_abbr, chapter, matches)
-
-    # Step 4：校验 + 回滚
     check_and_rollback(book_id, book_abbr, chapter, backup_path)
