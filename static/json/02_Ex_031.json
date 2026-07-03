@@ -1,0 +1,6721 @@
+{
+  "has_tokens": true,
+  "verses": [
+    {
+      "verse": 1,
+      "text_cn": "上主训示梅瑟说：",
+      "words": [
+        {
+          "word": "The",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0001",
+          "start": 100,
+          "end": 220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0002",
+          "start": 220,
+          "end": 600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "spoke",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0003",
+          "start": 600,
+          "end": 1020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0004",
+          "start": 1020,
+          "end": 1140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Moses",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0005",
+          "start": 1140,
+          "end": 1800
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 2,
+      "text_cn": "“看，从犹大支派，我已召叫了胡尔的孙子，乌黎的儿子贝匝肋耳来，",
+      "words": [
+        {
+          "word": "See",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0006",
+          "start": 2180,
+          "end": 2620
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0007",
+          "start": 2920,
+          "end": 3010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0008",
+          "start": 3010,
+          "end": 3250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "called",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0009",
+          "start": 3250,
+          "end": 3610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "by",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0010",
+          "start": 3610,
+          "end": 3780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "name",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0011",
+          "start": 3780,
+          "end": 4320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Bezalel",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0012",
+          "start": 4370,
+          "end": 5020
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "son",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0013",
+          "start": 5020,
+          "end": 5420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0014",
+          "start": 5420,
+          "end": 5580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Uri",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0015",
+          "start": 5580,
+          "end": 6120
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "son",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0016",
+          "start": 6190,
+          "end": 6590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0017",
+          "start": 6590,
+          "end": 6730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Hur",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0018",
+          "start": 6730,
+          "end": 7140
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0019",
+          "start": 7140,
+          "end": 7200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0020",
+          "start": 7530,
+          "end": 7780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tribe",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0021",
+          "start": 7810,
+          "end": 8190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0022",
+          "start": 8190,
+          "end": 8350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Judah",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0023",
+          "start": 8350,
+          "end": 8850
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 3,
+      "text_cn": "以天主的神充满了他，叫他有智慧、技能和知识，能制造各种工程，",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0024",
+          "start": 9360,
+          "end": 9510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0025",
+          "start": 9510,
+          "end": 9630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0026",
+          "start": 9630,
+          "end": 9810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "filled",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0027",
+          "start": 9810,
+          "end": 10190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0028",
+          "start": 10190,
+          "end": 10450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0029",
+          "start": 10450,
+          "end": 10680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "divine",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0030",
+          "start": 10680,
+          "end": 11190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "spirit",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0031",
+          "start": 11190,
+          "end": 11750
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0032",
+          "start": 12150,
+          "end": 12350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ability",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0033",
+          "start": 12350,
+          "end": 13030
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "intelligence",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0034",
+          "start": 13310,
+          "end": 14250
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0035",
+          "start": 14530,
+          "end": 14740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "knowledge",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0036",
+          "start": 14740,
+          "end": 15200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0037",
+          "start": 15200,
+          "end": 15370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "every",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0038",
+          "start": 15420,
+          "end": 15730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kind",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0039",
+          "start": 15730,
+          "end": 16170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0040",
+          "start": 16170,
+          "end": 16300
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "craft",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0041",
+          "start": 16300,
+          "end": 16830
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 4,
+      "text_cn": "能设计图案，能用金、银、铜制造器物，",
+      "words": [
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0042",
+          "start": 17090,
+          "end": 17210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "devise",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0043",
+          "start": 17210,
+          "end": 17770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "artistic",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0044",
+          "start": 17770,
+          "end": 18440
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "designs",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0045",
+          "start": 18440,
+          "end": 19230
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0046",
+          "start": 19460,
+          "end": 19580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "work",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0047",
+          "start": 19580,
+          "end": 19950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0048",
+          "start": 19950,
+          "end": 20130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "gold",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0049",
+          "start": 20130,
+          "end": 20600
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "silver",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0050",
+          "start": 20820,
+          "end": 21470
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0051",
+          "start": 21620,
+          "end": 21790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "bronze",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0052",
+          "start": 21790,
+          "end": 22460
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 5,
+      "text_cn": "能雕刻宝石，镶嵌，雕刻木头，制造各种工程。",
+      "words": [
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0053",
+          "start": 22880,
+          "end": 23040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "cutting",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0054",
+          "start": 23040,
+          "end": 23370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stones",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0055",
+          "start": 23370,
+          "end": 23860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0056",
+          "start": 23860,
+          "end": 24000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "setting",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0057",
+          "start": 24000,
+          "end": 24520
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0058",
+          "start": 24820,
+          "end": 24960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0059",
+          "start": 24960,
+          "end": 25080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "carving",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0060",
+          "start": 25080,
+          "end": 25560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "wood",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0061",
+          "start": 25560,
+          "end": 25980
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0062",
+          "start": 26150,
+          "end": 26290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "every",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0063",
+          "start": 26320,
+          "end": 26600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "kind",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0064",
+          "start": 26600,
+          "end": 26950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0065",
+          "start": 26950,
+          "end": 27100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "craft",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0066",
+          "start": 27100,
+          "end": 27600
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 6,
+      "text_cn": "我又使丹支派阿希撒玛客的儿子敖曷里雅布与他合作；也把智慧赐给一切有艺术技能的人，好完成我吩咐你的一切：",
+      "words": [
+        {
+          "word": "Moreover",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0067",
+          "start": 28400,
+          "end": 29050
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0068",
+          "start": 29420,
+          "end": 29540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0069",
+          "start": 29540,
+          "end": 29820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "appointed",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0070",
+          "start": 29820,
+          "end": 30420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0071",
+          "start": 30420,
+          "end": 30660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0072",
+          "start": 30660,
+          "end": 30980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Oholiab",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0073",
+          "start": 31060,
+          "end": 31790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "son",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0074",
+          "start": 31990,
+          "end": 32290
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0075",
+          "start": 32290,
+          "end": 32360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Ahisamach",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0076",
+          "start": 32360,
+          "end": 33150
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0077",
+          "start": 33620,
+          "end": 33740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0078",
+          "start": 33740,
+          "end": 33830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tribe",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0079",
+          "start": 33830,
+          "end": 34260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0080",
+          "start": 34260,
+          "end": 34420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Dan",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0081",
+          "start": 34420,
+          "end": 34840
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0082",
+          "start": 35150,
+          "end": 35320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0083",
+          "start": 35320,
+          "end": 35460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0084",
+          "start": 35460,
+          "end": 35740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "given",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0085",
+          "start": 35740,
+          "end": 36100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "skill",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0086",
+          "start": 36100,
+          "end": 36600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0087",
+          "start": 36600,
+          "end": 36770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0088",
+          "start": 36770,
+          "end": 37050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0089",
+          "start": 37050,
+          "end": 37170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "skillful",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0090",
+          "start": 37170,
+          "end": 37950
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "so",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0091",
+          "start": 38320,
+          "end": 38510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0092",
+          "start": 38510,
+          "end": 38750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "they",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0093",
+          "start": 38750,
+          "end": 38920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "may",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0094",
+          "start": 38920,
+          "end": 39190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "make",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0095",
+          "start": 39190,
+          "end": 39550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0096",
+          "start": 39620,
+          "end": 39850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0097",
+          "start": 39850,
+          "end": 40010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0098",
+          "start": 40010,
+          "end": 40130
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0099",
+          "start": 40130,
+          "end": 40380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "commanded",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0100",
+          "start": 40380,
+          "end": 40970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0101",
+          "start": 40970,
+          "end": 41260
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 7,
+      "text_cn": "会幕、约柜和上面的赎罪盖及属于会幕的一切用具，",
+      "words": [
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0102",
+          "start": 41600,
+          "end": 41730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tent",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0103",
+          "start": 41730,
+          "end": 42080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0104",
+          "start": 42080,
+          "end": 42220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "meeting",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0105",
+          "start": 42220,
+          "end": 42730
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0106",
+          "start": 43120,
+          "end": 43310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0107",
+          "start": 43310,
+          "end": 43430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "ark",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0108",
+          "start": 43470,
+          "end": 43730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0109",
+          "start": 43730,
+          "end": 43870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0110",
+          "start": 43870,
+          "end": 43970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "covenant",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0111",
+          "start": 43970,
+          "end": 44600
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0112",
+          "start": 45000,
+          "end": 45210
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0113",
+          "start": 45210,
+          "end": 45270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "mercy",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0114",
+          "start": 45270,
+          "end": 45760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "seat",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0115",
+          "start": 45760,
+          "end": 46140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0116",
+          "start": 46140,
+          "end": 46330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0117",
+          "start": 46330,
+          "end": 46480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0118",
+          "start": 46480,
+          "end": 46740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0119",
+          "start": 46740,
+          "end": 46900
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0120",
+          "start": 47300,
+          "end": 47480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0121",
+          "start": 47550,
+          "end": 47800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0122",
+          "start": 47800,
+          "end": 47930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "furnishings",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0123",
+          "start": 47930,
+          "end": 48660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0124",
+          "start": 48660,
+          "end": 48820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0125",
+          "start": 48820,
+          "end": 48920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tent",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0126",
+          "start": 48920,
+          "end": 49400
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 8,
+      "text_cn": "供桌和桌上的一切器物，纯金的灯台和灯台的一切器物和香坛，",
+      "words": [
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0127",
+          "start": 49660,
+          "end": 49780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "table",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0128",
+          "start": 49780,
+          "end": 50380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0129",
+          "start": 50430,
+          "end": 50600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0130",
+          "start": 50600,
+          "end": 50770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "utensils",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0131",
+          "start": 50770,
+          "end": 51580
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0132",
+          "start": 51860,
+          "end": 52030
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0133",
+          "start": 52030,
+          "end": 52090
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "pure",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0134",
+          "start": 52090,
+          "end": 52430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "lampstand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0135",
+          "start": 52430,
+          "end": 53200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0136",
+          "start": 53390,
+          "end": 53570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0137",
+          "start": 53570,
+          "end": 53800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0138",
+          "start": 53800,
+          "end": 53970
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "utensils",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0139",
+          "start": 53970,
+          "end": 54690
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0140",
+          "start": 55100,
+          "end": 55270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0141",
+          "start": 55270,
+          "end": 55380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0142",
+          "start": 55380,
+          "end": 55790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0143",
+          "start": 55790,
+          "end": 55900
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "incense",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0144",
+          "start": 55900,
+          "end": 56550
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 9,
+      "text_cn": "全燔祭坛和一切器物，盆和盆座，",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0145",
+          "start": 56980,
+          "end": 57140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0146",
+          "start": 57140,
+          "end": 57240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "altar",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0147",
+          "start": 57240,
+          "end": 57650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0148",
+          "start": 57650,
+          "end": 57790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "burnt",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0149",
+          "start": 57790,
+          "end": 58100
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "offering",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0150",
+          "start": 58100,
+          "end": 58620
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0151",
+          "start": 58620,
+          "end": 58800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "all",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0152",
+          "start": 58800,
+          "end": 58990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0153",
+          "start": 58990,
+          "end": 59190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "utensils",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0154",
+          "start": 59190,
+          "end": 59910
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0155",
+          "start": 60340,
+          "end": 60480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0156",
+          "start": 60480,
+          "end": 60550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "basin",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0157",
+          "start": 60550,
+          "end": 61140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0158",
+          "start": 61370,
+          "end": 61570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "its",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0159",
+          "start": 61570,
+          "end": 61750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stand",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0160",
+          "start": 61750,
+          "end": 62310
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 10,
+      "text_cn": "行礼的衣服，亚郎大司祭的圣衣和他儿子们行祭的服装，",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0161",
+          "start": 62650,
+          "end": 62830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0162",
+          "start": 62830,
+          "end": 62890
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "finely",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0163",
+          "start": 62890,
+          "end": 63380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "worked",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0164",
+          "start": 63380,
+          "end": 63730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "vestments",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0165",
+          "start": 63730,
+          "end": 64530
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0166",
+          "start": 64930,
+          "end": 65040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "holy",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0167",
+          "start": 65040,
+          "end": 65460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "vestments",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0168",
+          "start": 65460,
+          "end": 66080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0169",
+          "start": 66080,
+          "end": 66250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0170",
+          "start": 66250,
+          "end": 66350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "priest",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0171",
+          "start": 66350,
+          "end": 66810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Aaron",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0172",
+          "start": 66870,
+          "end": 67340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0173",
+          "start": 67650,
+          "end": 67820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0174",
+          "start": 67820,
+          "end": 67870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "vestments",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0175",
+          "start": 67870,
+          "end": 68520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0176",
+          "start": 68520,
+          "end": 68640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "his",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0177",
+          "start": 68640,
+          "end": 68800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sons",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0178",
+          "start": 68800,
+          "end": 69370
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0179",
+          "start": 69630,
+          "end": 69800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "their",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0180",
+          "start": 69800,
+          "end": 69960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "service",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0181",
+          "start": 69960,
+          "end": 70510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0182",
+          "start": 70510,
+          "end": 70710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "priests",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0183",
+          "start": 70710,
+          "end": 71380
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 11,
+      "text_cn": "傅礼用的油和为圣所焚的香。他们应全照我吩咐你的去作。”",
+      "words": [
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0184",
+          "start": 71850,
+          "end": 72010
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0185",
+          "start": 72010,
+          "end": 72110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "anointing",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0186",
+          "start": 72110,
+          "end": 72680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "oil",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0187",
+          "start": 72740,
+          "end": 73190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0188",
+          "start": 73440,
+          "end": 73590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0189",
+          "start": 73590,
+          "end": 73650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "fragrant",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0190",
+          "start": 73650,
+          "end": 74190
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "incense",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0191",
+          "start": 74220,
+          "end": 74840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0192",
+          "start": 74840,
+          "end": 75050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0193",
+          "start": 75050,
+          "end": 75150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "holy",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0194",
+          "start": 75150,
+          "end": 75510
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "place",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0195",
+          "start": 75510,
+          "end": 76050
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "They",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0196",
+          "start": 76430,
+          "end": 76600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0197",
+          "start": 76600,
+          "end": 76800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "do",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0198",
+          "start": 76800,
+          "end": 76990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "just",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0199",
+          "start": 76990,
+          "end": 77410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0200",
+          "start": 77410,
+          "end": 77550
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0201",
+          "start": 77550,
+          "end": 77720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "have",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0202",
+          "start": 77720,
+          "end": 77930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "commanded",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0203",
+          "start": 77930,
+          "end": 78470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0204",
+          "start": 78470,
+          "end": 78750
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 12,
+      "text_cn": "上主训示梅瑟说：",
+      "words": [
+        {
+          "word": "The",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0205",
+          "start": 79360,
+          "end": 79480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0206",
+          "start": 79480,
+          "end": 79820
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "said",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0207",
+          "start": 79820,
+          "end": 80070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0208",
+          "start": 80070,
+          "end": 80140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Moses",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0209",
+          "start": 80140,
+          "end": 80780
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 13,
+      "text_cn": "“你要吩咐以色列子民说：你们务要守我的安息日，这是我与你们之间世世代代的记号，使你们知道，我是祝圣你们的上主。",
+      "words": [
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0210",
+          "start": 81230,
+          "end": 81430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "yourself",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0211",
+          "start": 81430,
+          "end": 82070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "are",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0212",
+          "start": 82070,
+          "end": 82150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0213",
+          "start": 82150,
+          "end": 82260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "speak",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0214",
+          "start": 82260,
+          "end": 82640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0215",
+          "start": 82640,
+          "end": 82760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0216",
+          "start": 82760,
+          "end": 82940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israelites",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0217",
+          "start": 82940,
+          "end": 83790
+        },
+        {
+          "word": ":",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "“",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0218",
+          "start": 84240,
+          "end": 84390
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0219",
+          "start": 84390,
+          "end": 84610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "keep",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0220",
+          "start": 84610,
+          "end": 84930
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "my",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0221",
+          "start": 84930,
+          "end": 85080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sabbaths",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0222",
+          "start": 85080,
+          "end": 85800
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0223",
+          "start": 86210,
+          "end": 86360
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "this",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0224",
+          "start": 86360,
+          "end": 86610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0225",
+          "start": 86610,
+          "end": 86760
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0226",
+          "start": 86760,
+          "end": 86830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sign",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0227",
+          "start": 86830,
+          "end": 87260
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "between",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0228",
+          "start": 87260,
+          "end": 87730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "me",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0229",
+          "start": 87730,
+          "end": 87950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0230",
+          "start": 87950,
+          "end": 88110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0231",
+          "start": 88110,
+          "end": 88370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "throughout",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0232",
+          "start": 88370,
+          "end": 88810
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "your",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0233",
+          "start": 88810,
+          "end": 88960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "generations",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0234",
+          "start": 88960,
+          "end": 89960
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "given",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0235",
+          "start": 90400,
+          "end": 90710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0236",
+          "start": 90710,
+          "end": 90870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "order",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0237",
+          "start": 90870,
+          "end": 91240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0238",
+          "start": 91240,
+          "end": 91410
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0239",
+          "start": 91410,
+          "end": 91580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "may",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0240",
+          "start": 91580,
+          "end": 91780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "know",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0241",
+          "start": 91780,
+          "end": 92080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0242",
+          "start": 92080,
+          "end": 92340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "I",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0243",
+          "start": 92340,
+          "end": 92770
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0244",
+          "start": 92950,
+          "end": 93110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0245",
+          "start": 93110,
+          "end": 93560
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sanctify",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0246",
+          "start": 93800,
+          "end": 94450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0247",
+          "start": 94450,
+          "end": 94760
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 14,
+      "text_cn": "所以你们应守安息日，因为这日为你们是圣日，那亵渎这圣日的，应受死刑；凡在这日工作的，应从百姓中铲除。",
+      "words": [
+        {
+          "word": "You",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0248",
+          "start": 95120,
+          "end": 95250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0249",
+          "start": 95250,
+          "end": 95480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "keep",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0250",
+          "start": 95480,
+          "end": 95850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0251",
+          "start": 95850,
+          "end": 95960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sabbath",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0252",
+          "start": 95960,
+          "end": 96600
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "because",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0253",
+          "start": 96820,
+          "end": 97160
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0254",
+          "start": 97160,
+          "end": 97250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0255",
+          "start": 97250,
+          "end": 97400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "holy",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0256",
+          "start": 97400,
+          "end": 97780
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "for",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0257",
+          "start": 97780,
+          "end": 98090
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "you",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0258",
+          "start": 98090,
+          "end": 98370
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "everyone",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0259",
+          "start": 99080,
+          "end": 99540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "who",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0260",
+          "start": 99540,
+          "end": 99680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "profanes",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0261",
+          "start": 99680,
+          "end": 100280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0262",
+          "start": 100280,
+          "end": 100420
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0263",
+          "start": 100420,
+          "end": 100600
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0264",
+          "start": 100600,
+          "end": 100750
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "put",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0265",
+          "start": 100750,
+          "end": 101060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0266",
+          "start": 101060,
+          "end": 101170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "death",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0267",
+          "start": 101170,
+          "end": 101650
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "whoever",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0268",
+          "start": 102080,
+          "end": 102500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "does",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0269",
+          "start": 102500,
+          "end": 102840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "any",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0270",
+          "start": 102880,
+          "end": 103110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "work",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0271",
+          "start": 103110,
+          "end": 103460
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0272",
+          "start": 103460,
+          "end": 103650
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "it",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0273",
+          "start": 103650,
+          "end": 103830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0274",
+          "start": 103830,
+          "end": 104000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0275",
+          "start": 104000,
+          "end": 104140
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "cut",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0276",
+          "start": 104140,
+          "end": 104430
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "off",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0277",
+          "start": 104430,
+          "end": 104670
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "from",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0278",
+          "start": 104670,
+          "end": 104910
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "among",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0279",
+          "start": 104910,
+          "end": 105270
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0280",
+          "start": 105270,
+          "end": 105340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0281",
+          "start": 105340,
+          "end": 105850
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 15,
+      "text_cn": "六日中可以工作，但第七日应完全安息，因为是献于上主的圣日；凡在安息日工作的，应受死刑。",
+      "words": [
+        {
+          "word": "Six",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0282",
+          "start": 106200,
+          "end": 106580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "days",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0283",
+          "start": 106580,
+          "end": 106950
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0284",
+          "start": 106950,
+          "end": 107250
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "work",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0285",
+          "start": 107250,
+          "end": 107580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0286",
+          "start": 107580,
+          "end": 107690
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "done",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0287",
+          "start": 107690,
+          "end": 108160
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "but",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0288",
+          "start": 108570,
+          "end": 108740
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0289",
+          "start": 108740,
+          "end": 108830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "seventh",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0290",
+          "start": 108830,
+          "end": 109350
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "day",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0291",
+          "start": 109350,
+          "end": 109610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0292",
+          "start": 109610,
+          "end": 109860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0293",
+          "start": 109860,
+          "end": 109920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sabbath",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0294",
+          "start": 109920,
+          "end": 110470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0295",
+          "start": 110470,
+          "end": 110580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "solemn",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0296",
+          "start": 110580,
+          "end": 111050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "rest",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0297",
+          "start": 111050,
+          "end": 111540
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "holy",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0298",
+          "start": 111870,
+          "end": 112280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0299",
+          "start": 112280,
+          "end": 112450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0300",
+          "start": 112450,
+          "end": 112590
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0301",
+          "start": 112590,
+          "end": 113050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": ";",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "whoever",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0302",
+          "start": 113450,
+          "end": 113870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "does",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0303",
+          "start": 113870,
+          "end": 114200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "any",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0304",
+          "start": 114260,
+          "end": 114480
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "work",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0305",
+          "start": 114480,
+          "end": 114850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0306",
+          "start": 114850,
+          "end": 115000
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0307",
+          "start": 115000,
+          "end": 115080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sabbath",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0308",
+          "start": 115080,
+          "end": 115610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "day",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0309",
+          "start": 115610,
+          "end": 115990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0310",
+          "start": 116300,
+          "end": 116520
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "be",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0311",
+          "start": 116520,
+          "end": 116660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "put",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0312",
+          "start": 116660,
+          "end": 116940
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "to",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0313",
+          "start": 116940,
+          "end": 117040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "death",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0314",
+          "start": 117040,
+          "end": 117460
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 16,
+      "text_cn": "以色列子民要守安息日，世世代代要过安息日，作为永远的盟约。",
+      "words": [
+        {
+          "word": "Therefore",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0315",
+          "start": 118000,
+          "end": 118570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0316",
+          "start": 118570,
+          "end": 118800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israelites",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0317",
+          "start": 118800,
+          "end": 119470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "shall",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0318",
+          "start": 119470,
+          "end": 119660
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "keep",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0319",
+          "start": 119660,
+          "end": 119980
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0320",
+          "start": 119980,
+          "end": 120070
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sabbath",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0321",
+          "start": 120070,
+          "end": 120660
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "observing",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0322",
+          "start": 120930,
+          "end": 121500
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0323",
+          "start": 121500,
+          "end": 121580
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sabbath",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0324",
+          "start": 121580,
+          "end": 122040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "throughout",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0325",
+          "start": 122040,
+          "end": 122490
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "their",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0326",
+          "start": 122490,
+          "end": 122630
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "generations",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0327",
+          "start": 122630,
+          "end": 123530
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "as",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0328",
+          "start": 123840,
+          "end": 123990
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0329",
+          "start": 123990,
+          "end": 124040
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "perpetual",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0330",
+          "start": 124040,
+          "end": 124710
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "covenant",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0331",
+          "start": 124710,
+          "end": 125190
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 17,
+      "text_cn": "这是我与以色列子民之间的永远记号，因为上主六天造了天地，第七天停工休息。”",
+      "words": [
+        {
+          "word": "It",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0332",
+          "start": 125580,
+          "end": 125700
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "is",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0333",
+          "start": 125700,
+          "end": 125840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "a",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0334",
+          "start": 125840,
+          "end": 125920
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "sign",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0335",
+          "start": 125920,
+          "end": 126330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "forever",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0336",
+          "start": 126330,
+          "end": 126860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "between",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0337",
+          "start": 126860,
+          "end": 127380
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "me",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0338",
+          "start": 127380,
+          "end": 127570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0339",
+          "start": 127570,
+          "end": 127730
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0340",
+          "start": 127730,
+          "end": 127770
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "people",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0341",
+          "start": 127770,
+          "end": 128170
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0342",
+          "start": 128170,
+          "end": 128280
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Israel",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0343",
+          "start": 128280,
+          "end": 128880
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "that",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0344",
+          "start": 129210,
+          "end": 129340
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "in",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0345",
+          "start": 129340,
+          "end": 129470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "six",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0346",
+          "start": 129470,
+          "end": 129840
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "days",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0347",
+          "start": 129840,
+          "end": 130330
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0348",
+          "start": 130330,
+          "end": 130490
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Lord",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0349",
+          "start": 130490,
+          "end": 130860
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "made",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0350",
+          "start": 130860,
+          "end": 131110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "heaven",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0351",
+          "start": 131110,
+          "end": 131470
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0352",
+          "start": 131470,
+          "end": 131610
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "earth",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0353",
+          "start": 131610,
+          "end": 131970
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0354",
+          "start": 132400,
+          "end": 132570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0355",
+          "start": 132570,
+          "end": 132720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0356",
+          "start": 132720,
+          "end": 132800
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "seventh",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0357",
+          "start": 132800,
+          "end": 133310
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "day",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0358",
+          "start": 133310,
+          "end": 133640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "he",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0359",
+          "start": 133640,
+          "end": 133830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "rested",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0360",
+          "start": 133830,
+          "end": 134480
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "and",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0361",
+          "start": 134660,
+          "end": 134850
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "was",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0362",
+          "start": 134850,
+          "end": 135080
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "refreshed",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0363",
+          "start": 135080,
+          "end": 135800
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "”",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    },
+    {
+      "verse": 18,
+      "text_cn": "上主在西乃山上向梅瑟说完了话，交给他两块约版，即天主用手指所写的石版。",
+      "words": [
+        {
+          "word": "When",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0364",
+          "start": 136870,
+          "end": 137060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "God",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0365",
+          "start": 137060,
+          "end": 137400
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "finished",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0366",
+          "start": 137400,
+          "end": 137870
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "speaking",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0367",
+          "start": 137870,
+          "end": 138370
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0368",
+          "start": 138370,
+          "end": 138570
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Moses",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0369",
+          "start": 138570,
+          "end": 139050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "on",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0370",
+          "start": 139050,
+          "end": 139300
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Mount",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0371",
+          "start": 139300,
+          "end": 139540
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "Sinai",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0372",
+          "start": 139540,
+          "end": 140110
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "he",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0373",
+          "start": 140520,
+          "end": 140640
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "gave",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0374",
+          "start": 140640,
+          "end": 140960
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "him",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0375",
+          "start": 140960,
+          "end": 141110
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0376",
+          "start": 141110,
+          "end": 141200
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "two",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0377",
+          "start": 141200,
+          "end": 141450
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tablets",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0378",
+          "start": 141450,
+          "end": 142050
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0379",
+          "start": 142050,
+          "end": 142150
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0380",
+          "start": 142150,
+          "end": 142240
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "covenant",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0381",
+          "start": 142240,
+          "end": 142800
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "tablets",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0382",
+          "start": 143140,
+          "end": 143680
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0383",
+          "start": 143680,
+          "end": 143790
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "stone",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0384",
+          "start": 143790,
+          "end": 144370
+        },
+        {
+          "word": ",",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "written",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0385",
+          "start": 144690,
+          "end": 145060
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "with",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0386",
+          "start": 145060,
+          "end": 145220
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "the",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0387",
+          "start": 145220,
+          "end": 145320
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "finger",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0388",
+          "start": 145320,
+          "end": 145720
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "of",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0389",
+          "start": 145720,
+          "end": 145830
+        },
+        {
+          "word": " ",
+          "type": "space",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        },
+        {
+          "word": "God",
+          "type": "word",
+          "entity_key": "",
+          "align_id": "02_Ex_031__0390",
+          "start": 145830,
+          "end": 146240
+        },
+        {
+          "word": ".",
+          "type": "punct",
+          "entity_key": "",
+          "align_id": "",
+          "start": 0,
+          "end": 0
+        }
+      ]
+    }
+  ]
+}
