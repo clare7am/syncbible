@@ -10,10 +10,8 @@ __pycache__/
 
 # 文件夹
 outputs/
-
-# 强制对齐
+archieve/
 corpus/
-forcealign/
 
 
 # 文件类型

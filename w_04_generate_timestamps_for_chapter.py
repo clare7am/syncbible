@@ -4,6 +4,7 @@
 """
 generate_timestamps_for_chapter.py
 从 TextGrid 生成 timestamps，并校验一致性
+支持 --auto-rollback 非交互模式
 """
 
 import re
@@ -12,6 +13,7 @@ import os
 import sys
 import shutil
 from datetime import datetime
+import argparse  # 新增 argparse 用于解析参数
 
 DB_PATH = "db/bible.db"
 TEXTGRID_DIR = "outputs/forcealign"
@@ -42,7 +44,6 @@ def get_book_info(book_id: int):
 
 
 def parse_textgrid(book_id: int, book_abbr: str, chapter: int):
-    # ✅ 文件名格式：02_Ex_001_en.TextGrid
     filename = f"{book_id:02d}_{book_abbr}_{chapter:03d}_en.TextGrid"
     filepath = os.path.join(TEXTGRID_DIR, filename)
 
@@ -52,7 +53,6 @@ def parse_textgrid(book_id: int, book_abbr: str, chapter: int):
     with open(filepath, "r", encoding="utf-8") as f:
         content = f.read()
 
-    # 只提取 item [1]
     item1_pattern = re.compile(
         r"item\s*\[1\]:(.*?)(?=\n\s*item\s*\[\d+\]:|\Z)",
         re.DOTALL
@@ -73,16 +73,7 @@ def parse_textgrid(book_id: int, book_abbr: str, chapter: int):
 
 
 def split_word(text: str):
-    """
-    拆分文本：
-    1. 先按空格分词
-    2. 再将包含单引号的词进一步拆分
-    例如：
-        brother's days'journey
-        → ["brother", "s", "days", "journey"]
-    """
     final_words = []
-
     raw_words = text.split()
     for w in raw_words:
         if "'" in w:
@@ -90,7 +81,6 @@ def split_word(text: str):
             final_words.extend(parts)
         else:
             final_words.append(w)
-
     return final_words
 
 
@@ -123,7 +113,6 @@ def fill_timestamps(book_id: int, book_abbr: str, chapter: int, matches):
             start_ms = int(round(start * 1000))
             end_ms = int(round(end * 1000))
 
-            # ✅ align_id 格式：02_Ex_001__0001
             align_id = f"{book_id:02d}_{book_abbr}_{chapter:03d}__{word_seq:04d}"
 
             cursor.execute(
@@ -137,7 +126,7 @@ def fill_timestamps(book_id: int, book_abbr: str, chapter: int, matches):
     print(f"✅ 共插入 {word_seq} 条 timestamps")
 
 
-def check_and_rollback(book_id: int, book_abbr: str, chapter: int, backup_path: str):
+def check_and_rollback(book_id: int, book_abbr: str, chapter: int, backup_path: str, auto_rollback: bool):
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
 
@@ -171,26 +160,38 @@ def check_and_rollback(book_id: int, book_abbr: str, chapter: int, backup_path: 
     if len(mismatches) > 5:
         print(f"  ...（共 {len(mismatches)} 条）")
 
-    answer = input("\n是否回滚到备份？(Y/N): ").strip().upper()
-    if answer == "Y":
+    # ============ 核心改动：非交互自动回滚 ============
+    if auto_rollback:
+        print(f"⚠️ 非交互模式：自动执行回滚")
         conn.close()
         shutil.copy(backup_path, DB_PATH)
         print(f"🔄 已回滚数据库")
+        # 以非零退出，让上层调度感知到失败
+        sys.exit(1)
     else:
-        print("⚠️ 未回滚，请手动处理不一致数据")
-        conn.close()
+        # 保留原有交互逻辑
+        answer = input("\n是否回滚到备份？(Y/N): ").strip().upper()
+        if answer == "Y":
+            conn.close()
+            shutil.copy(backup_path, DB_PATH)
+            print(f"🔄 已回滚数据库")
+        else:
+            print("⚠️ 未回滚，请手动处理不一致数据")
+            conn.close()
 
 
 # ============ 主流程 ============
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("用法：python generate_timestamps_for_chapter.py <book_id> <chapter>")
-        print("示例：python generate_timestamps_for_chapter.py 2 1")
-        sys.exit(1)
+    parser = argparse.ArgumentParser()
+    parser.add_argument("book_id", type=int)
+    parser.add_argument("chapter", type=int)
+    parser.add_argument("--auto-rollback", action="store_true", help="非交互模式，自动回滚")
+    args = parser.parse_args()
 
-    book_id = int(sys.argv[1])
-    chapter = int(sys.argv[2])
+    book_id = args.book_id
+    chapter = args.chapter
+    auto_rollback = args.auto_rollback
 
     book_abbr = get_book_info(book_id)
 
@@ -199,4 +200,4 @@ if __name__ == "__main__":
     backup_path = backup_database()
     matches = parse_textgrid(book_id, book_abbr, chapter)
     fill_timestamps(book_id, book_abbr, chapter, matches)
-    check_and_rollback(book_id, book_abbr, chapter, backup_path)
+    check_and_rollback(book_id, book_abbr, chapter, backup_path, auto_rollback)

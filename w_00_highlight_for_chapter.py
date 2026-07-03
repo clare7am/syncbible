@@ -5,8 +5,6 @@
 w_00_highlight_for_chapter.py
 完整工作流：为指定 book_id + chapter 执行高亮所需全部步骤
 防御机制：若目标 JSON 已存在，直接跳过
-用法：
-    python w_00_highlight_for_chapter.py <book_id> <chapter>
 """
 
 import sys
@@ -23,7 +21,7 @@ SCRIPTS = {
     "mp3_to_wav":     "w_02_mp3_to_wav_for_chapter.py",
     "force_align":    "w_03_forcealign_for_chapter.py",
     "timestamps":     "w_04_generate_timestamps_for_chapter.py",
-    "json":            "w_05_generate_json_for_chapter.py",
+    "json":           "w_05_generate_json_for_chapter.py",
 }
 
 
@@ -50,15 +48,37 @@ def run_step(step_name: str, book_id: int, chapter: int):
     print(f"  脚本：{script}")
     print(f"{'='*60}")
 
+    cmd = ["python", script, str(book_id), str(chapter)]
+    
+    # 如果是 timestamps 步骤，追加自动回滚参数
+    if step_name == "timestamps":
+        cmd.append("--auto-rollback")
+
     start = time.time()
+    
+    # 核心改动：捕获 stdout 和 stderr，并设置 text=True 方便字符串匹配
     result = subprocess.run(
-        ["python", script, str(book_id), str(chapter)]
+        cmd,
+        capture_output=True,
+        text=True
     )
+    
     elapsed = time.time() - start
+
+    # 打印子进程输出，方便现场排查
+    if result.stdout:
+        print(result.stdout)
+    if result.stderr:
+        print(result.stderr)
 
     if result.returncode != 0:
         print(f"\n❌ 步骤失败：{step_name}（耗时 {elapsed:.2f}s）")
-        sys.exit(1)
+        
+        # 如果是 timestamps 步骤且报错，标记为不一致回滚失败
+        if step_name == "timestamps":
+            raise RuntimeError("timestamps 不一致，已自动回滚")
+        else:
+            sys.exit(1)
 
     print(f"✅ 步骤完成：{step_name}（耗时 {elapsed:.2f}s）")
 

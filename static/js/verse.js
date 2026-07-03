@@ -1,34 +1,42 @@
-// verse.js
-
 // =====================
-// ✅ JSON 索引（启动时构建一次）
+// 配置：阿里云 OSS JSON 基础地址
 // =====================
-const JSON_INDEX = new Set();
+const OSS_JSON_BASE = "https://c7-json.oss-cn-beijing.aliyuncs.com";
 
-(async function buildJsonIndex() {
-    try {
-        const res = await fetch("/static/json/");
-        const text = await res.text();
-
-        // 匹配：01_Gen_001.json
-        const pattern = /(\d{2})_([A-Za-z]+)_(\d{3})\.json/g;
-        let m;
-        while ((m = pattern.exec(text)) !== null) {
-            const bookId = Number(m[1]);
-            const chapter = Number(m[3]);
-            JSON_INDEX.add(`${bookId}_${chapter}`);
-        }
-
-        console.log("✅ JSON 索引构建完成：", JSON_INDEX.size, "章");
-    } catch (e) {
-        console.warn("⚠️ 无法读取 JSON 目录：", e);
-    }
-})();
-
-function hasJson(bookId, chapter) {
-    return JSON_INDEX.has(`${bookId}_${chapter}`);
+/**
+ * 生成阿里云 OSS JSON 外链
+ * 格式：{base}/{02位书卷ID}_{英文缩写}_{03位章节}.json
+ */
+function getOssJsonUrl(bookId, chapter) {
+    const abbr = getAbbr(bookId);
+    const bookStr = String(bookId).padStart(2, "0");
+    const chapterStr = String(chapter).padStart(3, "0");
+    return `${OSS_JSON_BASE}/${bookStr}_${abbr}_${chapterStr}.json`;
 }
 
+// =====================
+// 书卷缩写映射
+// =====================
+function getAbbr(bookId) {
+    const MAP = {
+        1:"Gen",2:"Ex",3:"Lev",4:"Num",5:"Dt",
+        6:"Jos",7:"Jdg",8:"Ru",9:"1S",10:"2S",
+        11:"1K",12:"2K",13:"1Chr",14:"2Chr",
+        15:"Ezra",16:"Ne",17:"Tb",18:"Jdt",19:"Es",
+        20:"1Mac",21:"2Mac",22:"Job",23:"Ps",24:"Pro",
+        25:"Ecl",26:"Song",27:"Wis",28:"Sir",29:"Is",
+        30:"Jer",31:"Lm",32:"Bar",33:"Ezk",34:"Dn",
+        35:"Hos",36:"Jl",37:"Am",38:"Ob",39:"Jon",
+        40:"Mic",41:"Nh",42:"Hb",43:"Zep",44:"Hg",
+        45:"Zec",46:"Mal",47:"Mt",48:"Mk",49:"Lk",
+        50:"Jn",51:"Acts",52:"Rom",53:"1Cor",54:"2Cor",
+        55:"Gal",56:"Eph",57:"Phil",58:"Col",59:"1Thes",
+        60:"2Thes",61:"1Tim",62:"2Tim",63:"Tit",64:"Phlm",
+        65:"Heb",66:"Jas",67:"1P",68:"2P",69:"1Jn",
+        70:"2Jn",71:"3Jn",72:"Jd",73:"Rev"
+    };
+    return MAP[bookId] || "";
+}
 
 // =====================
 // 监听书卷和章节变化
@@ -48,37 +56,16 @@ function loadVerses() {
 
     container.innerHTML = "<p>加载中...</p>";
 
-    // ✅ 优先使用本地 JSON
-    if (hasJson(bookId, chapter)) {
-        loadJsonVerses(bookId, chapter, container);
-        return;
-    }
-
-    // ✅ 没有 JSON，走数据库
-    fetch(`/has_tokens/${bookId}/${chapter}`)
-        .then(res => res.json())
-        .then(flag => {
-            if (flag.has_tokens) {
-                loadTokenVerses(bookId, chapter, container);
-            } else {
-                loadPlainVerses(bookId, chapter, container);
-            }
-        })
-        .catch(err => {
-            container.innerHTML = "<p>加载失败</p>";
-            console.error(err);
-        });
+    // ✅ 优先使用阿里云 OSS JSON 外链
+    const ossUrl = getOssJsonUrl(bookId, chapter);
+    loadJsonVerses(ossUrl, container);
 }
 
-
 // =====================
-// ✅ 直接读 JSON（不走数据库）
+// 直接读取 OSS JSON 外链
 // =====================
-function loadJsonVerses(bookId, chapter, container) {
-    const ch = String(chapter).padStart(3, "0");
-    const url = `/static/json/${String(bookId).padStart(2, "0")}_${getAbbr(bookId)}_${ch}.json`;
-
-    console.log("📖 使用本地 JSON：", url);
+function loadJsonVerses(url, container) {
+    console.log("📖 使用 OSS JSON：", url);
 
     fetch(url)
         .then(res => {
@@ -99,66 +86,8 @@ function loadJsonVerses(bookId, chapter, container) {
         });
 }
 
-
 // =====================
-// 有分词（数据库）
-// =====================
-function loadTokenVerses(bookId, chapter, container) {
-    container.innerHTML = '<div class="loading">正在加载经文...</div>';
-
-    const ch = String(chapter).padStart(3, "0");
-    const url = `/static/json/${String(bookId).padStart(2, "0")}_${getAbbr(bookId)}_${ch}.json`;
-
-    console.log("📖 经文来源（数据库分词）：", url);
-
-    fetch(url)
-        .then(async res => {
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
-            return res.json();
-        })
-        .then(data => {
-            const verses = Array.isArray(data.verses) ? data.verses : [];
-            if (verses.length === 0) {
-                container.innerHTML = "<p>暂无经文</p>";
-                return;
-            }
-            renderVerses(verses, container);
-        })
-        .catch(err => {
-            container.innerHTML = "<p>加载失败</p>";
-            console.error("❌ 分词加载错误：", err);
-        });
-}
-
-
-// =====================
-// 无分词兜底
-// =====================
-function loadPlainVerses(bookId, chapter, container) {
-    fetch(`/verses/${bookId}/${chapter}`)
-        .then(res => res.json())
-        .then(data => {
-            if (data.length === 0) {
-                container.innerHTML = "<p>暂无经文</p>";
-                return;
-            }
-            container.innerHTML = data.map(v => `
-                <div class="verse-block">
-                    <div class="verse-num">${v.verse}</div>
-                    <div class="verse-text">${v.text_en}</div>
-                    <div class="verse-cn">${v.text_cn}</div>
-                </div>
-            `).join('');
-        })
-        .catch(err => {
-            container.innerHTML = "<p>加载失败</p>";
-            console.error(err);
-        });
-}
-
-
-// =====================
-// ✅ 公共渲染函数
+// 公共渲染函数（保持不变）
 // =====================
 function renderVerses(verses, container) {
     container.innerHTML = "";
@@ -213,29 +142,4 @@ function renderVerses(verses, container) {
     }
 
     renderBatch();
-}
-
-
-// =====================
-// ✅ 书卷缩写映射（必须）
-// =====================
-function getAbbr(bookId) {
-    const MAP = {
-        1:"Gen",2:"Ex",3:"Lev",4:"Num",5:"Dt",
-        6:"Jos",7:"Jdg",8:"Ru",9:"1S",10:"2S",
-        11:"1K",12:"2K",13:"1Chr",14:"2Chr",
-        15:"Ezra",16:"Ne",17:"Tb",18:"Jdt",19:"Es",
-        20:"1Mac",21:"2Mac",22:"Job",23:"Ps",24:"Pro",
-        25:"Ecl",26:"Song",27:"Wis",28:"Sir",29:"Is",
-        30:"Jer",31:"Lm",32:"Bar",33:"Ezk",34:"Dn",
-        35:"Hos",36:"Jl",37:"Am",38:"Ob",39:"Jon",
-        40:"Mic",41:"Nh",42:"Hb",43:"Zep",44:"Hg",
-        45:"Zec",46:"Mal",47:"Mt",48:"Mk",49:"Lk",
-        50:"Jn",51:"Acts",52:"Rom",53:"1Cor",54:"2Cor",
-        55:"Gal",56:"Eph",57:"Phil",58:"Col",59:"1Thes",
-        60:"2Thes",61:"1Tim",62:"2Tim",63:"Tit",64:"Phlm",
-        65:"Heb",66:"Jas",67:"1P",68:"2P",69:"1Jn",
-        70:"2Jn",71:"3Jn",72:"Jd",73:"Rev"
-    };
-    return MAP[bookId] || "";
 }

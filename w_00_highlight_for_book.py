@@ -13,6 +13,7 @@ import sys
 import subprocess
 import sqlite3
 import os
+import traceback
 import time
 
 DB_PATH = "db/bible.db"
@@ -21,10 +22,6 @@ CHAPTER_SCRIPT = "w_00_highlight_for_chapter.py"
 
 
 def get_book_info(book_id: int):
-    """
-    返回:
-      abbr_en, max_chapter
-    """
     conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
     cur.execute(
@@ -51,22 +48,34 @@ def run_chapter(book_id: int, abbr: str, chapter: int):
     # ✅ 防御检查：JSON 已存在就跳过
     if os.path.exists(json_path):
         print(f"⏭️  已存在，跳过：{abbr} {chapter}")
-        return "skipped"
+        return "skipped", None
 
     print(f"\n▶ 开始处理：{abbr} {chapter}")
 
     start = time.time()
+    
+    # 核心改动：捕获子进程的 stderr 和 returncode
     result = subprocess.run(
-        ["python", CHAPTER_SCRIPT, str(book_id), str(chapter)]
+        ["python", CHAPTER_SCRIPT, str(book_id), str(chapter)],
+        capture_output=True,
+        text=True
     )
+    
     elapsed = time.time() - start
+
+    # 打印子进程输出，方便现场排查
+    if result.stdout:
+        print(result.stdout)
+    if result.stderr:
+        print(result.stderr)
 
     if result.returncode != 0:
         print(f"❌ 失败：{abbr} {chapter}（耗时 {elapsed:.2f}s）")
-        return "failed"
-
+        # 返回失败状态和 stderr 信息，供顶层汇总
+        return "failed", result.stderr
+        
     print(f"✅ 完成：{abbr} {chapter}（耗时 {elapsed:.2f}s）")
-    return "ok"
+    return "ok", None
 
 
 def main(book_id: int):
@@ -83,9 +92,28 @@ def main(book_id: int):
         "failed": 0,
     }
 
+    # 核心改动：收集问题章节
+    problems = []
+
     for chapter in range(1, max_chapter + 1):
-        status = run_chapter(book_id, abbr, chapter)
-        stats[status] += 1
+        try:
+            status, detail = run_chapter(book_id, abbr, chapter)
+            stats[status] += 1
+            
+            # 只有真正失败的才记录
+            if status == "failed":
+                problems.append({
+                    "chapter": chapter,
+                    "detail": detail
+                })
+                
+        except Exception:
+            # 防止极端情况导致整卷流程中断
+            stats["failed"] += 1
+            problems.append({
+                "chapter": chapter,
+                "detail": traceback.format_exc()
+            })
 
     total = time.time() - t0
 
@@ -94,6 +122,17 @@ def main(book_id: int):
     print(f"⏭️  跳过：{stats['skipped']}")
     print(f"❌ 失败：{stats['failed']}")
     print(f"⏱ 总耗时：{total:.2f}s")
+
+    # ============ 核心改动：统一打印问题章节报告 ============
+    if problems:
+        print(f"\n🚨 问题章节汇总（共 {len(problems)} 章）")
+        for item in problems:
+            print(f"\n--- {abbr} {item['chapter']} ---")
+            # 打印 stderr 或异常堆栈的最后几行，避免刷屏
+            lines = item['detail'].strip().splitlines()
+            tail = lines[-20:] if len(lines) > 20 else lines
+            for line in tail:
+                print(line)
 
 
 if __name__ == "__main__":
