@@ -74,13 +74,22 @@ def parse_textgrid(book_id: int, book_abbr: str, chapter: int):
 
 def split_word(text: str):
     final_words = []
+
     raw_words = text.split()
     for w in raw_words:
-        if "'" in w:
-            parts = [p for p in w.split("'") if p]
+        # 同时支持 ' 和 -
+        if "'" in w or "-" in w:
+            parts = [w]
+            for sep in ["'", "-"]:
+                new_parts = []
+                for p in parts:
+                    new_parts.extend(p.split(sep))
+                parts = new_parts
+            parts = [p for p in parts if p]
             final_words.extend(parts)
         else:
             final_words.append(w)
+
     return final_words
 
 

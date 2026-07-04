@@ -1,21 +1,37 @@
 // =====================
-// 配置：阿里云 OSS JSON 基础地址
+// 配置
 // =====================
 const OSS_JSON_BASE = "https://c7-json.oss-cn-beijing.aliyuncs.com";
 
-/**
- * 生成阿里云 OSS JSON 外链
- * 格式：{base}/{02位书卷ID}_{英文缩写}_{03位章节}.json
- */
-function getOssJsonUrl(bookId, chapter) {
-    const abbr = getAbbr(bookId);
-    const bookStr = String(bookId).padStart(2, "0");
-    const chapterStr = String(chapter).padStart(3, "0");
-    return `${OSS_JSON_BASE}/${bookStr}_${abbr}_${chapterStr}.json`;
+// 本地 JSON 索引
+const JSON_INDEX = new Set();
+
+// 启动时构建一次
+(async function buildJsonIndex() {
+    try {
+        const res = await fetch("/static/json/");
+        const text = await res.text();
+
+        const pattern = /(\d{2})_([A-Za-z]+)_(\d{3})\.json/g;
+        let m;
+        while ((m = pattern.exec(text)) !== null) {
+            const bookId = Number(m[1]);
+            const chapter = Number(m[3]);
+            JSON_INDEX.add(`${bookId}_${chapter}`);
+        }
+
+        console.log("✅ 本地 JSON 索引构建完成：", JSON_INDEX.size, "章");
+    } catch (e) {
+        console.warn("⚠️ 无法读取 JSON 目录：", e);
+    }
+})();
+
+function hasJson(bookId, chapter) {
+    return JSON_INDEX.has(`${bookId}_${chapter}`);
 }
 
 // =====================
-// 书卷缩写映射
+// 书卷缩写
 // =====================
 function getAbbr(bookId) {
     const MAP = {
@@ -39,7 +55,17 @@ function getAbbr(bookId) {
 }
 
 // =====================
-// 监听书卷和章节变化
+// OSS JSON 地址
+// =====================
+function getOssJsonUrl(bookId, chapter) {
+    const abbr = getAbbr(bookId);
+    const bookStr = String(bookId).padStart(2, "0");
+    const chapterStr = String(chapter).padStart(3, "0");
+    return `${OSS_JSON_BASE}/${bookStr}_${abbr}_${chapterStr}.json`;
+}
+
+// =====================
+// 主入口
 // =====================
 function loadVerses() {
     const bookSelect = document.getElementById("book");
@@ -56,38 +82,117 @@ function loadVerses() {
 
     container.innerHTML = "<p>加载中...</p>";
 
-    // ✅ 优先使用阿里云 OSS JSON 外链
     const ossUrl = getOssJsonUrl(bookId, chapter);
-    loadJsonVerses(ossUrl, container);
-}
 
-// =====================
-// 直接读取 OSS JSON 外链
-// =====================
-function loadJsonVerses(url, container) {
-    console.log("📖 使用 OSS JSON：", url);
+    console.log("🌐 尝试 OSS JSON：", ossUrl);
 
-    fetch(url)
+    fetch(ossUrl)
         .then(res => {
-            if (!res.ok) throw new Error(`HTTP ${res.status}`);
+            if (!res.ok) {
+                throw new Error("OSS JSON 不存在");
+            }
             return res.json();
         })
         .then(data => {
-            const verses = Array.isArray(data.verses) ? data.verses : [];
-            if (verses.length === 0) {
-                container.innerHTML = "<p>暂无经文</p>";
-                return;
-            }
-            renderVerses(verses, container);
+            console.log("✅ OSS JSON 加载成功");
+            renderOssOrJson(data, container);
         })
-        .catch(err => {
-            container.innerHTML = "<p>加载失败</p>";
-            console.error("❌ JSON 加载错误：", err);
+        .catch(() => {
+            console.warn("⚠️ OSS 不可用，回退到本地逻辑");
+            fallbackLoad(bookId, chapter, container);
         });
 }
 
 // =====================
-// 公共渲染函数（保持不变）
+// OSS / 本地 JSON 渲染（结构一致）
+// =====================
+function renderOssOrJson(data, container) {
+    const verses = Array.isArray(data.verses) ? data.verses : [];
+    if (verses.length === 0) {
+        container.innerHTML = "<p>暂无经文</p>";
+        return;
+    }
+    renderVerses(verses, container);
+}
+
+// =====================
+// 回退逻辑（原 verse之前.js）
+// =====================
+function fallbackLoad(bookId, chapter, container) {
+    // 本地 JSON
+    if (hasJson(bookId, chapter)) {
+        loadLocalJson(bookId, chapter, container);
+        return;
+    }
+
+    // 数据库分词
+    fetch(`/has_tokens/${bookId}/${chapter}`)
+        .then(res => res.json())
+        .then(flag => {
+            if (flag.has_tokens) {
+                loadTokenVerses(bookId, chapter, container);
+            } else {
+                loadPlainVerses(bookId, chapter, container);
+            }
+        })
+        .catch(err => {
+            container.innerHTML = "<p>加载失败</p>";
+            console.error(err);
+        });
+}
+
+// =====================
+// 本地 JSON
+// =====================
+function loadLocalJson(bookId, chapter, container) {
+    const ch = String(chapter).padStart(3, "0");
+    const url = `/static/json/${String(bookId).padStart(2, "0")}_${getAbbr(bookId)}_${ch}.json`;
+
+    console.log("📖 使用本地 JSON：", url);
+
+    fetch(url)
+        .then(res => res.json())
+        .then(data => renderOssOrJson(data, container))
+        .catch(err => {
+            container.innerHTML = "<p>加载失败</p>";
+            console.error(err);
+        });
+}
+
+// =====================
+// 数据库分词
+// =====================
+function loadTokenVerses(bookId, chapter, container) {
+    loadLocalJson(bookId, chapter, container);
+}
+
+// =====================
+// 无分词兜底
+// =====================
+function loadPlainVerses(bookId, chapter, container) {
+    fetch(`/verses/${bookId}/${chapter}`)
+        .then(res => res.json())
+        .then(data => {
+            if (data.length === 0) {
+                container.innerHTML = "<p>暂无经文</p>";
+                return;
+            }
+            container.innerHTML = data.map(v => `
+                <div class="verse-block">
+                    <div class="verse-num">${v.verse}</div>
+                    <div class="verse-text">${v.text_en}</div>
+                    <div class="verse-cn">${v.text_cn}</div>
+                </div>
+            `).join('');
+        })
+        .catch(err => {
+            container.innerHTML = "<p>加载失败</p>";
+            console.error(err);
+        });
+}
+
+// =====================
+// 公共渲染
 // =====================
 function renderVerses(verses, container) {
     container.innerHTML = "";
