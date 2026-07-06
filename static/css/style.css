@@ -20,7 +20,7 @@ body {
 
     /* 防止被固定顶底栏遮挡 */
     padding-top: 72px; 
-    padding-bottom: 80px; 
+    padding-bottom: calc(80px + env(safe-area-inset-bottom));
 }
 
 /* ===== Top Bar — 书卷/章节选择 ===== */
@@ -122,7 +122,7 @@ body {
 /* ===== 底部播放器 ===== */
 .player {
     position: fixed;
-    bottom: 0;
+    bottom: env(safe-area-inset-bottom);
     left: 0;
     width: 100%;
     height: 64px;
@@ -132,9 +132,15 @@ body {
     z-index: 1000;
 
     display: flex;
-    align-items:center;
-    padding: 0 16px 12px;
+    align-items: center;
+    padding: 0 16px;
     gap: 10px;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    .player {
+        bottom: 0;
+    }
 }
 
 /* 播放器按钮 */
