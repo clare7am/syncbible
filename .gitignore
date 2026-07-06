@@ -2,20 +2,20 @@
 __pycache__/
 *.pyc
 
-# Jupyter 检查点
+# Jupyter
 .ipynb_checkpoints/
 
-# 系统
+# macOS
+.DS_Store
 
+# 数据库临时文件
+db/*.db-shm
+db/*.db-wal
 
-# 文件夹
+# 环境
+.env
+
+# 目录
 outputs/
 archieve/
 corpus/
-
-
-# 文件类型
-.env
-.DS_Store
-*.mp3db/*.db-shm
-db/*.db-wal
