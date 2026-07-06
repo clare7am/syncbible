@@ -17,4 +17,5 @@ corpus/
 # 文件类型
 .env
 .DS_Store
-*.mp3
+*.mp3db/*.db-shm
+db/*.db-wal
